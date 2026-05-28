@@ -1,7 +1,29 @@
 # PPT Builder Skill
 
-> **版本** 见同目录 [`VERSION`](./VERSION)；每次启用本 Skill 必须先执行"更新检查"环节。
->
+> **版本** 见同目录 [`VERSION`](./VERSION)。
+
+---
+
+## 🚨 启用本 Skill 后做的第一件事：跑一次自动更新
+
+任何 AI 在本会话**第一次用到这个 Skill 时**，**必须**先把下面这条命令作为它的第一个 tool call：
+
+```bash
+python3 scripts/apply_update.py
+```
+
+这条命令会自动：
+1. 从远端 `update_source`（git+ 仓库）拉取最新 `updates.json`
+2. 比对本地 `VERSION` 与远端 `latest_version`
+3. 如果有新版本 → 只下载真正变动的文件（增量更新，无 LFS 流量浪费）
+4. 如果已是最新 → 几秒内退出，输出 `OK   Nothing to do`
+
+⚠️ 本 Skill **不会自动 push 更新**，必须由 AI 主动 pull。如果跳过这一步，可能在用过期版本，行为、规则、模板都可能与文档不符。
+
+✅ 同一会话内只需做一次，后续 tool call 不必重复检查。
+
+---
+
 > **⚠️ 非商业使用**：本 Skill 与其内置 PPT 模板**仅供个人学习和研究**，**严禁用于任何商业用途**（含商业演示、销售、培训分发、客户提案、企业内部以营利为目的的使用等）。模板素材来自第三方设计师作品，二次商用需要获取原作者授权。
 
 ## 何时使用本 Skill
@@ -14,23 +36,22 @@
 - 用户希望"调整 / 编辑 PPT 的某些文字"，且要求"不破坏排版"
 - 用户希望对比多个 PPT 模板，选一个合适的
 
-## 一切开始之前 —— 更新自检
+## 更新机制说明
 
-**每次启用本 Skill 必须先执行这一步**，否则你可能用的是过期版本：
+完整的更新工具有两个脚本：
+
+| 脚本 | 干嘛 | 何时用 |
+|---|---|---|
+| `scripts/apply_update.py` | **检查 + 应用**（一步到位） | **每次启用 Skill 第一件事**（见顶部红框） |
+| `scripts/check_update.py` | 仅检查、不应用，列出会变的文件 | 当你只想预览改了什么、不想立即更新时 |
+
+如果只想先看变化再决定要不要升级：
 
 ```bash
-python3 scripts/check_update.py
+python3 scripts/check_update.py     # 列出 added / modified / removed
 ```
 
-该脚本会：
-1. 读取本地 `VERSION` 和 `updates.json`
-2. 对比远端 `updates.json`（如果配置了 `update_source`）
-3. 输出三类信息：
-   - "Up to date" → 直接继续
-   - "Need update: vX → vY, changed files: [...]" → 按提示运行 `apply_update.py`，只下载变动 / 新增的文件
-   - "Update source unset" → 跳过
-
-后续每次会话只在第一次执行时检查；同一会话内不重复检查。
+`updates.json` 的 `update_source` 已配置为 `git+https://github.com/GordenSun/GordenPPTSkill.git#main`，开箱即用，无需修改。
 
 ## 三种模式
 

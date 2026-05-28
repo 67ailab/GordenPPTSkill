@@ -2,6 +2,33 @@
 
 按版本倒序列出可读变更。机器读取请用 [`updates.json`](./updates.json)；只读哪些文件变动请用 [`manifest.json`](./manifest.json) 的 `last_modified` 字段。
 
+## 1.0.4 — 2026-05-28
+
+**让 AI 真的会自动更新到最新版（修旧版会卡在某个版本的坑）。**
+
+背景：用户反馈说"我用别的 AI 启用这个 Skill 时，它还停在 v1.0.2，没自动更新"。原因是 v1.0.3 之前 SKILL.md 让 AI 先跑 `check_update.py`（只检查不应用），AI 看完输出后**经常忘了**再跑 `apply_update.py`，结果就卡在旧版了。
+
+修复：
+
+- **SKILL.md 顶部加显眼红框**，告诉 AI "第一件事就是跑 `python3 scripts/apply_update.py`"（这一条命令本身就是自检 + 自应用）。
+- 把 `check_update.py` 从主路径降级为"只想预览不想升级"的可选工具。
+- 明确写出：本 Skill **不会自动 push 更新**，AI 必须主动 pull；如果跳过，会用过期版本。
+
+如何救已经卡在旧版本的 AI：让它跑一次
+
+```bash
+python3 scripts/apply_update.py
+```
+
+跑完会从 git 增量拉到最新，下次它读 SKILL.md 就会按新规则走。
+
+文件改动：
+
+- `SKILL.md`（顶部新增红框 + 更新机制小节重写）
+- `VERSION` / `CHANGELOG.md` / `updates.json` / `manifest.json`
+
+模板 / 脚本无变化，纯 docs。
+
 ## 1.0.3 — 2026-05-28
 
 **新增 / 修订 1 条编辑铁律：封面与致谢页按模板能力来，不要硬造。**
