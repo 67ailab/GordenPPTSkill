@@ -2,6 +2,27 @@
 
 按版本倒序列出可读变更。机器读取请用 [`updates.json`](./updates.json)；只读哪些文件变动请用 [`manifest.json`](./manifest.json) 的 `last_modified` 字段。
 
+## 1.0.5 — 2026-05-29
+
+**仓库门面更新：README 重写 + 加入微信交流群二维码。**
+
+变更：
+
+- `README.md`：替换为更直接、更生动的中文介绍（"史上最强原生 PPT Skill / 几大特色 / 兼容 DeepSeek/Mimo/Claude/GPT" 等）。新增"支持定制私有化模板（微信 duge360）"段。
+- 新增 `assets/group-qr.jpg`：微信"PPT Skill 交流群"二维码（7 天内有效，过期来 Issues 拿新的）。
+- README 加入 `## 交流群` 小节，以居中图片形式展示该二维码。
+- 同步 bump `VERSION` / `CHANGELOG.md` / `updates.json` / `manifest.json`，以便已部署在用户机器上的旧版本能通过 `apply_update.py` 拉到新 README + 二维码。
+
+模板 / 脚本无变化。
+
+升级方式（v1.0.4 → v1.0.5）：
+
+```bash
+python3 scripts/apply_update.py
+```
+
+会下载约 5 个文档 + 1 张二维码图（约 180 KB），无 LFS pptx 流量。
+
 ## 1.0.4 — 2026-05-28
 
 **让 AI 真的会自动更新到最新版（修旧版会卡在某个版本的坑）。**

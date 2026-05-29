@@ -1,9 +1,25 @@
 {
   "$schema": "ppt-skill-updates/v1",
-  "latest_version": "1.0.4",
+  "latest_version": "1.0.5",
   "update_source": "git+https://github.com/GordenSun/GordenPPTSkill.git#main",
   "_update_source_help": "Set update_source to a URL prefix (e.g. https://example.com/ppt-skill/v1/) that hosts the same updates.json + the per-file mirror, OR to a git remote+branch in the form 'git+https://...repo.git#main'. When unset, check_update.py reports 'Update source unset' and exits cleanly.",
   "history": [
+    {
+      "version": "1.0.5",
+      "released_at": "2026-05-29",
+      "summary": "README rewritten + 加入 PPT Skill 微信交流群二维码 (assets/group-qr.jpg).",
+      "added": [
+        "assets/group-qr.jpg"
+      ],
+      "modified": [
+        "VERSION",
+        "CHANGELOG.md",
+        "updates.json",
+        "manifest.json",
+        "README.md"
+      ],
+      "removed": []
+    },
     {
       "version": "1.0.4",
       "released_at": "2026-05-28",
