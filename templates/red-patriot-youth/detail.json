@@ -84,13 +84,22 @@
             "run": 0
           },
           "current_text": "新时代",
-          "max_chars": 4,
+          "max_chars": 9,
           "editable": true,
           "guidance": "构成封面大字的第 1 段（建议保留 2-3 字）。整体合起来 6-8 字。",
           "font_size_pt": 66.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            20.69,
+            4.01
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 2
         },
         {
           "slot_id": "s1_sh18_p0r1",
@@ -102,13 +111,22 @@
             "run": 1
           },
           "current_text": "的",
-          "max_chars": 4,
+          "max_chars": 9,
           "editable": true,
           "guidance": "通常是 '的' '与' '是' 之类的虚词，1 字。",
           "font_size_pt": 66.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            20.69,
+            4.01
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 2
         },
         {
           "slot_id": "s1_sh18_p0r2",
@@ -120,13 +138,22 @@
             "run": 2
           },
           "current_text": "中国",
-          "max_chars": 4,
+          "max_chars": 7,
           "editable": true,
           "guidance": "用大字号行楷字体突出显示，建议 2 字作为视觉焦点。",
           "font_size_pt": 88.0,
           "font_name": "汉仪心海行楷W",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            20.69,
+            4.01
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 1
         },
         {
           "slot_id": "s1_sh18_p0r3",
@@ -138,13 +165,22 @@
             "run": 3
           },
           "current_text": "青年",
-          "max_chars": 4,
+          "max_chars": 9,
           "editable": true,
           "guidance": "封面大字的最后一段，2-3 字。",
           "font_size_pt": 66.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            20.69,
+            4.01
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 2
         },
         {
           "slot_id": "s1_sh20_p0r0",
@@ -155,13 +191,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点单击此处输入你的正文，文字是您思想的提炼单击此处输入你的正文文字是您思想的提炼",
-          "max_chars": 152,
+          "max_chars": 234,
           "editable": true,
           "guidance": "中央副标说明文字，建议 ≤ 80 字。",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            19.76,
+            2.95
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 39,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "s1_sh21_p0r0",
@@ -172,13 +217,22 @@
             "paragraph": 0
           },
           "current_text": "中小学爱国主义党政教育模板",
-          "max_chars": 24,
+          "max_chars": 15,
           "editable": true,
           "guidance": "顶部装饰小标，例如 '主题党日活动' 或 '思政教育课件'。",
           "font_size_pt": 20.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            9.77,
+            1.11
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "s1_sh22_p0r0",
@@ -189,13 +243,22 @@
             "paragraph": 0
           },
           "current_text": "汇报人：稻小壳",
-          "max_chars": 14,
+          "max_chars": 8,
           "editable": true,
           "guidance": "'汇报人：XXX' 或 '主讲人：XXX'。'稻小壳' 是模板示例，必须替换。",
           "font_size_pt": 16.0,
           "font_name": null,
           "font_color": "C00000",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.5,
+            0.94
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 8
         }
       ],
       "preview_slot_in_2x2": "左上",
@@ -220,14 +283,23 @@
             "paragraph": 0
           },
           "current_text": "目录",
-          "max_chars": 4,
+          "max_chars": 2,
           "editable": true,
           "guidance": "通常保持 '目录'。",
           "font_size_pt": 66.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            6.06,
+            3.08
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 1,
+          "level": 2
         },
         {
           "slot_id": "s2_sh37_p0r0",
@@ -238,13 +310,22 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 12,
           "editable": true,
           "guidance": "≤ 10 字。与 slide 3 的章节标题必须一致。",
           "font_size_pt": 20.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.53,
+            1.39
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "s2_sh38_p0r0",
@@ -255,13 +336,22 @@
             "paragraph": 0
           },
           "current_text": "01.",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 36.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            2.44,
+            1.8
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s2_sh39_p0r0",
@@ -272,13 +362,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的",
-          "max_chars": 64,
+          "max_chars": 72,
           "editable": true,
           "guidance": "≤ 28 字，简介本章节内容。",
           "font_size_pt": 10.5,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.82,
+            1.52
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 20,
+          "max_lines": 3,
+          "level": 11
         },
         {
           "slot_id": "s2_sh34_p0r0",
@@ -289,13 +388,22 @@
             "paragraph": 0
           },
           "current_text": "爱国的具体表现",
-          "max_chars": 13,
+          "max_chars": 12,
           "editable": true,
           "guidance": "≤ 10 字。与 slide 7 一致。",
           "font_size_pt": 20.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.53,
+            1.39
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "s2_sh35_p0r0",
@@ -306,13 +414,22 @@
             "paragraph": 0
           },
           "current_text": "02.",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 36.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            2.44,
+            1.8
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s2_sh36_p0r0",
@@ -323,13 +440,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的",
-          "max_chars": 64,
+          "max_chars": 72,
           "editable": true,
           "guidance": "正文段落，~30 字；占位文本必改",
           "font_size_pt": 10.5,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.82,
+            1.52
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 20,
+          "max_lines": 3,
+          "level": 11
         },
         {
           "slot_id": "s2_sh31_p0r0",
@@ -340,13 +466,22 @@
             "paragraph": 0
           },
           "current_text": "爱国的思想觉悟",
-          "max_chars": 13,
+          "max_chars": 12,
           "editable": true,
           "guidance": "≤ 10 字。与 slide 11 一致。",
           "font_size_pt": 20.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.53,
+            1.39
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "s2_sh32_p0r0",
@@ -357,13 +492,22 @@
             "paragraph": 0
           },
           "current_text": "03.",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 36.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            2.44,
+            1.8
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s2_sh33_p0r0",
@@ -374,13 +518,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的",
-          "max_chars": 64,
+          "max_chars": 72,
           "editable": true,
           "guidance": "正文段落，~30 字；占位文本必改",
           "font_size_pt": 10.5,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.82,
+            1.52
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 20,
+          "max_lines": 3,
+          "level": 11
         },
         {
           "slot_id": "s2_sh27_p0r0",
@@ -391,13 +544,22 @@
             "paragraph": 0
           },
           "current_text": "做好新时代青年",
-          "max_chars": 13,
+          "max_chars": 12,
           "editable": true,
           "guidance": "≤ 10 字。本模板没有第 4 扉页，需要时复制 slide 11 修改。",
           "font_size_pt": 20.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.53,
+            1.39
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "s2_sh29_p0r0",
@@ -408,13 +570,22 @@
             "paragraph": 0
           },
           "current_text": "04.",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 36.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            2.44,
+            1.8
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s2_sh30_p0r0",
@@ -425,13 +596,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的",
-          "max_chars": 64,
+          "max_chars": 72,
           "editable": true,
           "guidance": "正文段落，~30 字；占位文本必改",
           "font_size_pt": 10.5,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.82,
+            1.52
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 20,
+          "max_lines": 3,
+          "level": 11
         }
       ],
       "preview_slot_in_2x2": "右上",
@@ -461,13 +641,22 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 11,
+          "max_chars": 9,
           "editable": true,
           "guidance": "≤ 10 字，与 slide 2 agenda 一致。",
           "font_size_pt": 36.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.48,
+            1.8
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s3_sh28_p0r0",
@@ -478,13 +667,22 @@
             "paragraph": 0
           },
           "current_text": "第一部分",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": true,
           "guidance": "'第一部分' / '第二部分' 等，跟章节序号呼应。",
           "font_size_pt": 24.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.93,
+            1.28
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "s3_sh40_p0r0",
@@ -495,13 +693,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点单击此处输入你的正文",
-          "max_chars": 100,
+          "max_chars": 156,
           "editable": true,
           "guidance": "对本章节的一句话引入，≤ 60 字。",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            13.45,
+            2.95
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 26,
+          "max_lines": 5,
+          "level": 9
         }
       ],
       "title_slot_id": "s3_sh24_p0r0",
@@ -525,14 +732,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 12,
+          "max_chars": 10,
           "editable": true,
           "guidance": "本页所属章节，与扉页一致。",
           "font_size_pt": 32.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.48,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "s4_sh10_p0r0",
@@ -543,13 +759,22 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 12,
+          "max_chars": 9,
           "editable": true,
           "guidance": "中间小标题，可重复章节名做强调。",
           "font_size_pt": 24.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.23,
+            1.28
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "s4_sh22_p0r0",
@@ -560,13 +785,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点,根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。单击此处输入你的正文",
-          "max_chars": 151,
+          "max_chars": 228,
           "editable": true,
           "guidance": "60-90 字。",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            19.38,
+            2.95
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 38,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "s4_sh23_p0r0",
@@ -577,13 +811,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点,根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。单击此处输入你的正文",
-          "max_chars": 151,
+          "max_chars": 228,
           "editable": true,
           "guidance": "60-90 字。",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            19.38,
+            2.95
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 38,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "s4_sh24_p0r0",
@@ -594,13 +837,21 @@
             "paragraph": 0
           },
           "current_text": "01",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 40.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            2.5,
+            1.97
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "s4_sh25_p0r0",
@@ -611,13 +862,21 @@
             "paragraph": 0
           },
           "current_text": "02",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 40.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            2.5,
+            1.97
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         }
       ],
       "title_slot_id": "s4_sh3_p0r0",
@@ -647,14 +906,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 12,
+          "max_chars": 10,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.48,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "s5_sh26_p0r0",
@@ -665,13 +933,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文",
-          "max_chars": 119,
+          "max_chars": 144,
           "editable": true,
           "guidance": "正文段落，~55 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            10.68,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 24,
+          "max_lines": 5,
+          "level": 10
         },
         {
           "slot_id": "s5_sh27_p0r0",
@@ -682,14 +959,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 16.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.5,
+            0.94
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 8
         },
         {
           "slot_id": "s5_sh29_p0r0",
@@ -700,13 +986,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文",
-          "max_chars": 119,
+          "max_chars": 144,
           "editable": true,
           "guidance": "正文段落，~55 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            10.68,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 24,
+          "max_lines": 5,
+          "level": 10
         },
         {
           "slot_id": "s5_sh30_p0r0",
@@ -717,14 +1012,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 16.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.5,
+            0.94
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 8
         },
         {
           "slot_id": "s5_sh32_p0r0",
@@ -735,13 +1039,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文",
-          "max_chars": 119,
+          "max_chars": 144,
           "editable": true,
           "guidance": "正文段落，~55 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            10.68,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 24,
+          "max_lines": 5,
+          "level": 10
         },
         {
           "slot_id": "s5_sh33_p0r0",
@@ -752,14 +1065,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 16.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.5,
+            0.94
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 8
         },
         {
           "slot_id": "s5_sh35_p0r0",
@@ -770,13 +1092,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文",
-          "max_chars": 119,
+          "max_chars": 144,
           "editable": true,
           "guidance": "正文段落，~55 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            10.68,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 24,
+          "max_lines": 5,
+          "level": 10
         },
         {
           "slot_id": "s5_sh36_p0r0",
@@ -787,14 +1118,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 16.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.5,
+            0.94
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 8
         }
       ],
       "preview_slot_in_2x2": "左下",
@@ -824,14 +1164,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 12,
+          "max_chars": 10,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.48,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "s6_sh22_p0r0",
@@ -842,13 +1191,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点,根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。单击此处输入你的正文",
-          "max_chars": 151,
+          "max_chars": 176,
           "editable": true,
           "guidance": "正文段落，~86 字；占位文本必改",
           "font_size_pt": 16.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            28.38,
+            2.31
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 49,
+          "max_lines": 3,
+          "level": 8
         },
         {
           "slot_id": "s6_sh40_p0r0",
@@ -859,13 +1217,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文文字是您思想的提炼",
-          "max_chars": 114,
+          "max_chars": 174,
           "editable": true,
           "guidance": "正文段落，~64 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.8,
+            2.95
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 29,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "s6_sh41_p0r0",
@@ -876,14 +1243,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 18.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.0,
+            1.03
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s6_sh42_p0r0",
@@ -894,13 +1270,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文文字是您思想的提炼",
-          "max_chars": 114,
+          "max_chars": 174,
           "editable": true,
           "guidance": "正文段落，~64 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.8,
+            2.95
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 29,
+          "max_lines": 5,
+          "level": 9
         }
       ],
       "title_slot_id": "s6_sh3_p0r0",
@@ -928,13 +1313,22 @@
             "paragraph": 0
           },
           "current_text": "爱国的具体表现",
-          "max_chars": 11,
+          "max_chars": 9,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 36.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.48,
+            1.8
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s7_sh28_p0r0",
@@ -945,13 +1339,22 @@
             "paragraph": 0
           },
           "current_text": "第二部分",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": true,
           "guidance": "章节序号 / Chapter N",
           "font_size_pt": 24.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.93,
+            1.28
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "s7_sh40_p0r0",
@@ -962,13 +1365,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点单击此处输入你的正文",
-          "max_chars": 100,
+          "max_chars": 156,
           "editable": true,
           "guidance": "正文段落，~57 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            13.45,
+            2.95
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 26,
+          "max_lines": 5,
+          "level": 9
         }
       ],
       "title_slot_id": "s7_sh24_p0r0",
@@ -992,14 +1404,23 @@
             "paragraph": 0
           },
           "current_text": "爱国的具体表现",
-          "max_chars": 12,
+          "max_chars": 10,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.48,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "s8_sh37_p0r0",
@@ -1010,13 +1431,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文文字是您思想的提炼",
-          "max_chars": 114,
+          "max_chars": 171,
           "editable": true,
           "guidance": "正文段落，~64 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            6.8,
+            5.64
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 11,
+          "level": 9
         },
         {
           "slot_id": "s8_sh38_p0r0",
@@ -1027,14 +1457,23 @@
             "paragraph": 0
           },
           "current_text": "爱国重要性",
-          "max_chars": 12,
+          "max_chars": 6,
           "editable": true,
           "guidance": "小标题，9 字内",
           "font_size_pt": 18.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.72,
+            1.03
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s8_sh39_p0r0",
@@ -1045,13 +1484,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文",
-          "max_chars": 119,
+          "max_chars": 158,
           "editable": true,
           "guidance": "正文段落，~55 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.33,
+            1.8
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 33,
+          "max_lines": 4,
+          "level": 10
         },
         {
           "slot_id": "s8_sh40_p0r0",
@@ -1062,14 +1510,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 16.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.5,
+            0.94
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 8
         },
         {
           "slot_id": "s8_sh42_p0r0",
@@ -1080,13 +1537,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文",
-          "max_chars": 119,
+          "max_chars": 158,
           "editable": true,
           "guidance": "正文段落，~55 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.33,
+            1.8
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 33,
+          "max_lines": 4,
+          "level": 10
         },
         {
           "slot_id": "s8_sh45_p0r0",
@@ -1097,14 +1563,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 16.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.5,
+            0.94
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 8
         },
         {
           "slot_id": "s8_sh47_p0r0",
@@ -1115,13 +1590,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文",
-          "max_chars": 119,
+          "max_chars": 158,
           "editable": true,
           "guidance": "正文段落，~55 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.33,
+            1.8
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 33,
+          "max_lines": 4,
+          "level": 10
         },
         {
           "slot_id": "s8_sh48_p0r0",
@@ -1132,14 +1616,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 16.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.5,
+            0.94
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 8
         }
       ],
       "title_slot_id": "s8_sh3_p0r0",
@@ -1168,14 +1661,23 @@
             "paragraph": 0
           },
           "current_text": "爱国的具体表现",
-          "max_chars": 12,
+          "max_chars": 10,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.48,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "s9_sh30_p0r0",
@@ -1186,13 +1688,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文文字是您思想的提炼",
-          "max_chars": 114,
+          "max_chars": 172,
           "editable": true,
           "guidance": "正文段落，~64 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.16,
+            4.74
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 16,
+          "max_lines": 9,
+          "level": 9
         },
         {
           "slot_id": "s9_sh31_p0r0",
@@ -1203,14 +1714,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 18.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.0,
+            1.03
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s9_sh34_p0r0",
@@ -1221,13 +1741,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文文字是您思想的提炼",
-          "max_chars": 114,
+          "max_chars": 172,
           "editable": true,
           "guidance": "正文段落，~64 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.16,
+            4.74
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 16,
+          "max_lines": 9,
+          "level": 9
         },
         {
           "slot_id": "s9_sh35_p0r0",
@@ -1238,14 +1767,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 18.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.0,
+            1.03
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s9_sh43_p0r0",
@@ -1256,13 +1794,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文文字是您思想的提炼",
-          "max_chars": 114,
+          "max_chars": 172,
           "editable": true,
           "guidance": "正文段落，~64 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.16,
+            4.74
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 16,
+          "max_lines": 9,
+          "level": 9
         },
         {
           "slot_id": "s9_sh44_p0r0",
@@ -1273,14 +1820,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 18.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.0,
+            1.03
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 7
         }
       ],
       "title_slot_id": "s9_sh3_p0r0",
@@ -1308,14 +1864,23 @@
             "paragraph": 0
           },
           "current_text": "爱国的具体表现",
-          "max_chars": 12,
+          "max_chars": 10,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.48,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "s10_sh38_p0r0",
@@ -1326,13 +1891,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点",
-          "max_chars": 158,
+          "max_chars": 246,
           "editable": true,
           "guidance": "正文段落，~89 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            20.82,
+            2.95
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 41,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "s10_sh46_p0r0",
@@ -1343,13 +1917,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点",
-          "max_chars": 158,
+          "max_chars": 246,
           "editable": true,
           "guidance": "正文段落，~89 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            20.82,
+            2.95
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 41,
+          "max_lines": 5,
+          "level": 9
         }
       ],
       "title_slot_id": "s10_sh3_p0r0",
@@ -1376,13 +1959,22 @@
             "paragraph": 0
           },
           "current_text": "爱国的思想觉悟",
-          "max_chars": 11,
+          "max_chars": 9,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 36.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.48,
+            1.8
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s11_sh28_p0r0",
@@ -1393,13 +1985,22 @@
             "paragraph": 0
           },
           "current_text": "第三部分",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": true,
           "guidance": "章节序号 / Chapter N",
           "font_size_pt": 24.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.93,
+            1.28
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "s11_sh40_p0r0",
@@ -1410,13 +2011,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点单击此处输入你的正文",
-          "max_chars": 100,
+          "max_chars": 156,
           "editable": true,
           "guidance": "正文段落，~57 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            13.45,
+            2.95
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 26,
+          "max_lines": 5,
+          "level": 9
         }
       ],
       "title_slot_id": "s11_sh24_p0r0",
@@ -1440,14 +2050,23 @@
             "paragraph": 0
           },
           "current_text": "爱国的思想觉悟",
-          "max_chars": 12,
+          "max_chars": 10,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.48,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "s12_sh18_p0r0",
@@ -1458,13 +2077,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文文字是您思想的提炼",
-          "max_chars": 114,
+          "max_chars": 168,
           "editable": true,
           "guidance": "正文段落，~64 字；占位文本必改",
           "font_size_pt": 16.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.64,
+            4.36
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 20,
+          "max_lines": 7,
+          "level": 8
         },
         {
           "slot_id": "s12_sh19_p0r0",
@@ -1475,14 +2103,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 18.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.0,
+            1.03
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s12_sh24_p0r0",
@@ -1493,13 +2130,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文文字是您思想的提炼",
-          "max_chars": 114,
+          "max_chars": 168,
           "editable": true,
           "guidance": "正文段落，~64 字；占位文本必改",
           "font_size_pt": 16.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.64,
+            4.36
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 20,
+          "max_lines": 7,
+          "level": 8
         },
         {
           "slot_id": "s12_sh25_p0r0",
@@ -1510,14 +2156,23 @@
             "paragraph": 0
           },
           "current_text": "爱国主义重要性",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 18.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.0,
+            1.03
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 7
         }
       ],
       "preview_slot_in_2x2": "右下",
@@ -1545,14 +2200,23 @@
             "paragraph": 0
           },
           "current_text": "爱国的思想觉悟",
-          "max_chars": 12,
+          "max_chars": 10,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.48,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "s13_sh49_p0r0",
@@ -1563,13 +2227,21 @@
             "paragraph": 0
           },
           "current_text": "01",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 28.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            1.51,
+            1.45
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "s13_sh46_p0r0",
@@ -1580,13 +2252,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点",
-          "max_chars": 97,
+          "max_chars": 93,
           "editable": true,
           "guidance": "正文段落，~45 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            6.01,
+            2.89
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 6,
+          "level": 10
         },
         {
           "slot_id": "s13_sh47_p0r0",
@@ -1597,13 +2278,22 @@
             "paragraph": 0
           },
           "current_text": "发展过程",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": true,
           "guidance": "小标题，8 字内",
           "font_size_pt": 18.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.08,
+            1.03
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s13_sh44_p0r0",
@@ -1614,13 +2304,21 @@
             "paragraph": 0
           },
           "current_text": "02",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 28.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            1.51,
+            1.45
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "s13_sh41_p0r0",
@@ -1631,13 +2329,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点",
-          "max_chars": 97,
+          "max_chars": 93,
           "editable": true,
           "guidance": "正文段落，~45 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            6.01,
+            2.89
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 6,
+          "level": 10
         },
         {
           "slot_id": "s13_sh42_p0r0",
@@ -1648,13 +2355,22 @@
             "paragraph": 0
           },
           "current_text": "发展过程",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": true,
           "guidance": "小标题，8 字内",
           "font_size_pt": 18.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.08,
+            1.03
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s13_sh39_p0r0",
@@ -1665,13 +2381,21 @@
             "paragraph": 0
           },
           "current_text": "03",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 28.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            1.56,
+            1.45
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "s13_sh36_p0r0",
@@ -1682,13 +2406,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点",
-          "max_chars": 97,
+          "max_chars": 93,
           "editable": true,
           "guidance": "正文段落，~45 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            6.01,
+            2.89
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 6,
+          "level": 10
         },
         {
           "slot_id": "s13_sh37_p0r0",
@@ -1699,13 +2432,22 @@
             "paragraph": 0
           },
           "current_text": "发展过程",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": true,
           "guidance": "小标题，8 字内",
           "font_size_pt": 18.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.08,
+            1.03
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s13_sh52_p0r0",
@@ -1716,13 +2458,22 @@
             "paragraph": 0
           },
           "current_text": "爱国的思想觉悟",
-          "max_chars": 13,
+          "max_chars": 12,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 20.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            2.22,
+            4.21
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 5,
+          "level": 6
         }
       ],
       "cautions": [
@@ -1758,14 +2509,23 @@
             "paragraph": 0
           },
           "current_text": "爱国的思想觉悟",
-          "max_chars": 12,
+          "max_chars": 10,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.48,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "s14_sh27_p0r0",
@@ -1776,13 +2536,22 @@
             "paragraph": 0
           },
           "current_text": "爱国的思想觉悟",
-          "max_chars": 13,
+          "max_chars": 14,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 20.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            1.37,
+            8.65
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 12,
+          "level": 6
         },
         {
           "slot_id": "s14_sh28_p0r0",
@@ -1793,13 +2562,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文",
-          "max_chars": 98,
+          "max_chars": 115,
           "editable": true,
           "guidance": "正文段落，~55 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            16.42,
+            2.05
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 32,
+          "max_lines": 3,
+          "level": 9
         },
         {
           "slot_id": "s14_sh29_p0r0",
@@ -1810,14 +2588,23 @@
             "paragraph": 0
           },
           "current_text": "爱国思想觉悟",
-          "max_chars": 12,
+          "max_chars": 7,
           "editable": true,
           "guidance": "小标题，10 字内",
           "font_size_pt": 16.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.93,
+            0.94
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 8
         },
         {
           "slot_id": "s14_sh31_p0r0",
@@ -1828,13 +2615,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文",
-          "max_chars": 98,
+          "max_chars": 115,
           "editable": true,
           "guidance": "正文段落，~55 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            16.42,
+            2.05
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 32,
+          "max_lines": 3,
+          "level": 9
         },
         {
           "slot_id": "s14_sh32_p0r0",
@@ -1845,14 +2641,23 @@
             "paragraph": 0
           },
           "current_text": "爱国思想觉悟",
-          "max_chars": 12,
+          "max_chars": 7,
           "editable": true,
           "guidance": "小标题，10 字内",
           "font_size_pt": 16.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.93,
+            0.94
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 8
         },
         {
           "slot_id": "s14_sh34_p0r0",
@@ -1863,13 +2668,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果尽量言简意赅的阐述观点单击此处输入你的正文",
-          "max_chars": 98,
+          "max_chars": 115,
           "editable": true,
           "guidance": "正文段落，~55 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            16.42,
+            2.05
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 32,
+          "max_lines": 3,
+          "level": 9
         },
         {
           "slot_id": "s14_sh35_p0r0",
@@ -1880,14 +2694,23 @@
             "paragraph": 0
           },
           "current_text": "爱国思想觉悟",
-          "max_chars": 11,
+          "max_chars": 7,
           "editable": true,
           "guidance": "小标题，10 字内",
           "font_size_pt": 16.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.93,
+            0.94
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 8
         }
       ],
       "title_slot_id": "s14_sh3_p0r0",
@@ -1916,13 +2739,22 @@
             "run": 0
           },
           "current_text": "非常感谢",
-          "max_chars": 16,
+          "max_chars": 9,
           "editable": true,
           "guidance": "如 '非常感谢您们观看' / '敬请指正'。",
           "font_size_pt": 66.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            20.69,
+            4.01
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 2
         },
         {
           "slot_id": "s15_sh18_p0r1",
@@ -1934,13 +2766,22 @@
             "run": 1
           },
           "current_text": "您",
-          "max_chars": 4,
+          "max_chars": 7,
           "editable": true,
           "guidance": "页面主标题，建议≤ 6 个中文字",
           "font_size_pt": 88.0,
           "font_name": "汉仪心海行楷W",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            20.69,
+            4.01
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 1
         },
         {
           "slot_id": "s15_sh18_p0r2",
@@ -1952,13 +2793,22 @@
             "run": 2
           },
           "current_text": "们",
-          "max_chars": 4,
+          "max_chars": 7,
           "editable": true,
           "guidance": "页面主标题，建议≤ 6 个中文字",
           "font_size_pt": 88.0,
           "font_name": "汉仪心海行楷W",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            20.69,
+            4.01
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 1
         },
         {
           "slot_id": "s15_sh18_p0r3",
@@ -1970,13 +2820,22 @@
             "run": 3
           },
           "current_text": "观看",
-          "max_chars": 4,
+          "max_chars": 9,
           "editable": true,
           "guidance": "页面主标题，建议≤ 6 个中文字",
           "font_size_pt": 66.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            20.69,
+            4.01
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 2
         },
         {
           "slot_id": "s15_sh20_p0r0",
@@ -1987,13 +2846,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点单击此处输入你的正文，文字是您思想的提炼单击此处输入你的正文文字是您思想的提炼",
-          "max_chars": 152,
+          "max_chars": 234,
           "editable": true,
           "guidance": "正文段落，~86 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "汉仪全唐诗简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            19.76,
+            2.95
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 39,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "s15_sh21_p0r0",
@@ -2004,13 +2872,22 @@
             "paragraph": 0
           },
           "current_text": "中小学爱国主义党政教育模板",
-          "max_chars": 24,
+          "max_chars": 15,
           "editable": true,
           "guidance": "小标题，17 字内",
           "font_size_pt": 20.0,
           "font_name": "汉仪书宋一简",
           "font_color": "FFE3C1",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            9.77,
+            1.11
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "s15_sh22_p0r0",
@@ -2021,13 +2898,22 @@
             "paragraph": 0
           },
           "current_text": "汇报人：稻小壳",
-          "max_chars": 14,
+          "max_chars": 8,
           "editable": true,
           "guidance": "格式：汇报人：XXX / 演讲者：XXX",
           "font_size_pt": 16.0,
           "font_name": null,
           "font_color": "C00000",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.5,
+            0.94
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 8
         }
       ],
       "title_slot_id": "s15_sh18_p0r1",
@@ -2057,7 +2943,12 @@
           "font_size_pt": 8.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s16_sh37_p0r0",
@@ -2074,7 +2965,13 @@
           "font_size_pt": 20.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s16_sh18_p0r0",
@@ -2091,7 +2988,12 @@
           "font_size_pt": 8.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s16_sh24_p0r0",
@@ -2108,7 +3010,13 @@
           "font_size_pt": 20.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s16_sh13_p0r0",
@@ -2126,7 +3034,13 @@
           "font_name": "黑体",
           "font_color": "222222",
           "bold": true,
-          "language": "mixed"
+          "language": "mixed",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 5
         },
         {
           "slot_id": "s16_sh14_p0r0",
@@ -2143,7 +3057,13 @@
           "font_size_pt": 12.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 10
         },
         {
           "slot_id": "s16_sh56_p0r0",
@@ -2154,13 +3074,22 @@
             "paragraph": 0
           },
           "current_text": "【说明】",
-          "max_chars": 7,
+          "max_chars": 259,
           "editable": true,
           "guidance": "页脚或细节注释（小字）",
           "font_size_pt": 7.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            9.16,
+            1.6
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 36,
+          "max_lines": 6,
+          "level": 12
         },
         {
           "slot_id": "s16_sh56_p1r0",
@@ -2171,13 +3100,22 @@
             "paragraph": 1
           },
           "current_text": "模板中使用的字体，仅限于个人学习、研究或欣赏目的使用，如需商用请您自行向版权方购买、获取商用版权。",
-          "max_chars": 103,
+          "max_chars": 259,
           "editable": true,
           "guidance": "页脚或细节注释（小字）",
           "font_size_pt": 7.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            9.16,
+            1.6
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 36,
+          "max_lines": 6,
+          "level": 12
         },
         {
           "slot_id": "s16_sh75_p0r0",
@@ -2196,7 +3134,12 @@
           "font_name": "黑体",
           "font_color": "222222",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s16_sh75_p0r1",
@@ -2214,7 +3157,12 @@
           "font_size_pt": 8.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "symbol"
+          "language": "symbol",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s16_sh77_p0r0",
@@ -2231,7 +3179,12 @@
           "font_size_pt": 8.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "mixed"
+          "language": "mixed",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s16_sh91_p0r0",
@@ -2249,7 +3202,13 @@
           "font_name": "黑体",
           "font_color": "FF2832",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 3
         },
         {
           "slot_id": "s16_sh92_p0r0",
@@ -2267,7 +3226,13 @@
           "font_name": "黑体",
           "font_color": "222222",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s16_sh95_p0r0",
@@ -2284,7 +3249,12 @@
           "font_size_pt": 8.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "mixed"
+          "language": "mixed",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s16_sh97_p0r0",
@@ -2302,7 +3272,12 @@
           "font_name": "黑体",
           "font_color": "222222",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s16_sh97_p1r0",
@@ -2320,7 +3295,12 @@
           "font_name": "黑体",
           "font_color": "222222",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s16_sh97_p2r0",
@@ -2338,7 +3318,12 @@
           "font_name": "黑体",
           "font_color": "222222",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s16_sh17_p0r0",
@@ -2356,7 +3341,13 @@
           "font_name": "黑体",
           "font_color": "FF2832",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 3
         },
         {
           "slot_id": "s16_sh3_p0r0",
@@ -2374,7 +3365,13 @@
           "font_name": "黑体",
           "font_color": "222222",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s16_sh63_p0r0",
@@ -2392,7 +3389,13 @@
           "font_name": "黑体",
           "font_color": "FF2832",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 3
         },
         {
           "slot_id": "s16_sh4_p0r0",
@@ -2410,7 +3413,13 @@
           "font_name": "黑体",
           "font_color": "222222",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s16_sh34_p0r0",
@@ -2429,7 +3438,12 @@
           "font_name": "黑体",
           "font_color": "222222",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s16_sh34_p0r1",
@@ -2447,7 +3461,12 @@
           "font_size_pt": 8.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "symbol"
+          "language": "symbol",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s16_sh35_p0r0",
@@ -2464,7 +3483,12 @@
           "font_size_pt": 8.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "mixed"
+          "language": "mixed",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s16_sh9_p0r0",
@@ -2481,7 +3505,12 @@
           "font_size_pt": 8.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s16_sh10_p0r0",
@@ -2498,7 +3527,13 @@
           "font_size_pt": 20.0,
           "font_name": "黑体",
           "font_color": "222222",
-          "language": "mixed"
+          "language": "mixed",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         }
       ],
       "title_slot_id": "s16_sh13_p0r0",
@@ -2512,6 +3547,68 @@
         "s16_sh63_p0r0"
       ],
       "text_density": "high"
+    }
+  ],
+  "type_scale": [
+    {
+      "level": 1,
+      "size_pt": 88.0,
+      "slot_count": 3
+    },
+    {
+      "level": 2,
+      "size_pt": 66.0,
+      "slot_count": 6
+    },
+    {
+      "level": 3,
+      "size_pt": 36.0,
+      "slot_count": 3
+    },
+    {
+      "level": 4,
+      "size_pt": 32.0,
+      "slot_count": 9
+    },
+    {
+      "level": 5,
+      "size_pt": 24.0,
+      "slot_count": 4
+    },
+    {
+      "level": 6,
+      "size_pt": 20.0,
+      "slot_count": 8
+    },
+    {
+      "level": 7,
+      "size_pt": 18.0,
+      "slot_count": 10
+    },
+    {
+      "level": 8,
+      "size_pt": 16.0,
+      "slot_count": 15
+    },
+    {
+      "level": 9,
+      "size_pt": 14.0,
+      "slot_count": 18
+    },
+    {
+      "level": 10,
+      "size_pt": 12.0,
+      "slot_count": 10
+    },
+    {
+      "level": 11,
+      "size_pt": 10.5,
+      "slot_count": 4
+    },
+    {
+      "level": 12,
+      "size_pt": 7.0,
+      "slot_count": 2
     }
   ]
 }

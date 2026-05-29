@@ -85,9 +85,11 @@ python3 -c "import json; d=json.load(open('templates/<slug>/detail.json')); prin
 
 强约束：
 - **每个 editable=true 的 slot 都必须出现在 edits 里**（不留占位文字）
-- **每条 new_text 不能超过 slot 的 max_chars**
+- **每条 new_text 的视觉宽度不能超过 slot 的 `max_chars`**（中文 1 字=1，英文/数字≈0.5）。参考同槽的 `chars_per_line` / `max_lines` 判断会不会换行出框。
+- **太长就缩短文字，绝不改字号**：同一 `level` 的标题必须同字号（见 `type_scale`），靠精炼用词控制长度，不要把某处字号改小。
 - **改了 agenda 的章节文字，必须同步改对应分章扉页 / 面包屑**
 - editable=false 的 slot（"01"、"02"、"%" 之类）通常不出现在 edits 里
+- 构建时务必带 `--detail`，让 `build_pptx.py` 能跑出框检测；建议用 `--strict` 让出框直接报错，便于一轮修好。
 
 ### A6. 跑构建
 

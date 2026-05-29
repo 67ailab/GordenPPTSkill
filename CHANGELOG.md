@@ -2,6 +2,39 @@
 
 按版本倒序列出可读变更。机器读取请用 [`updates.json`](./updates.json)；只读哪些文件变动请用 [`manifest.json`](./manifest.json) 的 `last_modified` 字段。
 
+## 1.0.7 — 2026-05-29
+
+**根治"文字出框" + 强制"同级标题字号一致"。**
+
+问题：生成的 PPT 经常文字太多出框，原因是旧 `max_chars` 是按"原文长度×系数"估的，不是按文本框真实尺寸算的；也没有生成后的出框检查。
+
+改进：
+
+1. **几何精算容量**（新脚本 `compute_capacity.py`，本地数据准备用）：
+   - 用文本框真实宽高 + 字号，算出 `chars_per_line`（每行可容字数）、`max_lines`（可容行数）、`max_chars`（容量，含 20% 校准余量，单位为视觉宽度：中文 1 字=1、英文/数字≈0.5）。
+   - 解析了 21% 字号继承自母版的占位符（占位符→版式→母版 txStyles），无 None。
+   - 退化框（自适应/组合内异形，量不到尺寸）标 `capacity_unknown` 并跳过检测。
+   - 全部 19 个模板的 detail.json 已重算；并新增顶层 `type_scale`（字号层级表）+ 每个 slot 的 `level`。
+2. **生成时出框检测**（`build_pptx.py`）：
+   - 每处改动按视觉宽度对比容量，超了就告警；`--strict` 时直接拒绝保存，必须缩短后重试。
+   - autofit（PowerPoint 自动缩字）的框给软提示、不拦截。
+   - 经多模板校准：用设计师原文回填时误报率约 0-5%，同时能稳定抓出 1.2 倍以上的真实超长。
+3. **编辑铁律新增第 9 条 + 强化第 3 条**：同级标题必须保持模板原字号，**出框只缩短文字、绝不改字号**（改字号会破坏同级一致）。
+
+文件改动：
+
+- 全部 19 个 `templates/*/detail.json`（新增容量字段 + type_scale + level）
+- `scripts/build_pptx.py`（出框检测 + `--no-lint` 开关）
+- `scripts/compute_capacity.py`（新增，数据准备用，随包附带）
+- `SKILL.md` / `references/workflow.md`（编辑规则）
+- `VERSION` / `CHANGELOG.md` / `updates.json` / `manifest.json`
+
+升级方式（v1.0.6 → v1.0.7）：
+
+```bash
+python3 scripts/apply_update.py     # 拉取重算后的 detail.json + 新 build_pptx.py（纯文本，无 pptx 变动）
+```
+
 ## 1.0.6 — 2026-05-29
 
 **大幅瘦身：移除嵌入字体 + 把模板移出 Git LFS，根治下载流量超限。**

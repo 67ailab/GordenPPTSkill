@@ -79,13 +79,22 @@
             "paragraph": 0
           },
           "current_text": "卡通教学模板",
-          "max_chars": 12,
+          "max_chars": 7,
           "editable": true,
           "guidance": "≤ 10 字的课程/培训名称。例如 '小学三年级语文' '亲子阅读分享'。",
           "font_size_pt": 66.0,
           "font_name": "方正卡通简体",
           "font_color": "FFF7F2",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            16.4,
+            3.07
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 1
         },
         {
           "slot_id": "s1_sh13_p0r0",
@@ -96,13 +105,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 101,
+          "max_chars": 168,
           "editable": true,
           "guidance": "一句 30-50 字的简介。",
           "font_size_pt": 12.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            15.37,
+            1.79
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 35,
+          "max_lines": 4,
+          "level": 7
         },
         {
           "slot_id": "s1_sh11_p0r0",
@@ -113,13 +131,22 @@
             "paragraph": 0
           },
           "current_text": "授课人：稻小壳",
-          "max_chars": 15,
+          "max_chars": 9,
           "editable": true,
           "guidance": "'授课人：XXX' / '主讲：XXX'。'稻小壳' 是模板示例，必须替换。",
           "font_size_pt": 12.0,
           "font_name": null,
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.91,
+            0.77
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 7
         }
       ],
       "preview_slot_in_2x2": "左上",
@@ -144,13 +171,22 @@
             "paragraph": 0
           },
           "current_text": "目    录",
-          "max_chars": 6,
+          "max_chars": 2,
           "editable": true,
           "guidance": "通常是 '目录' 二字，可以替换为 '本节内容' 等。",
           "font_size_pt": 54.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.86,
+            2.56
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 1,
+          "level": 2
         },
         {
           "slot_id": "s2_sh372_p0r0",
@@ -167,7 +203,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s2_sh20_p0r0",
@@ -184,7 +226,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s2_sh4_p0r0",
@@ -201,7 +249,12 @@
           "font_size_pt": 24.0,
           "font_name": "阿里巴巴普惠体 M",
           "font_color": null,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s2_sh7_p0r0",
@@ -218,7 +271,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s2_sh12_p0r0",
@@ -235,7 +294,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s2_sh14_p0r0",
@@ -252,7 +317,12 @@
           "font_size_pt": 24.0,
           "font_name": "阿里巴巴普惠体 M",
           "font_color": null,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s2_sh16_p0r0",
@@ -269,7 +339,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s2_sh17_p0r0",
@@ -286,7 +362,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s2_sh18_p0r0",
@@ -303,7 +385,12 @@
           "font_size_pt": 24.0,
           "font_name": "阿里巴巴普惠体 M",
           "font_color": null,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s2_sh22_p0r0",
@@ -320,7 +407,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s2_sh23_p0r0",
@@ -337,7 +430,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s2_sh24_p0r0",
@@ -354,7 +453,12 @@
           "font_size_pt": 24.0,
           "font_name": "阿里巴巴普惠体 M",
           "font_color": null,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         }
       ],
       "preview_slot_in_2x2": "右上",
@@ -384,13 +488,22 @@
             "paragraph": 0
           },
           "current_text": "请添加标题",
-          "max_chars": 10,
+          "max_chars": 6,
           "editable": true,
           "guidance": "页面标题，建议短句；占位文本必改",
           "font_size_pt": 36.0,
           "font_name": "方正卡通简体",
           "font_color": "FFF7F2",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            6.86,
+            1.79
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s3_sh21_p0r0",
@@ -401,13 +514,21 @@
             "paragraph": 0
           },
           "current_text": "01",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 60.0,
           "font_name": "阿里巴巴普惠体 M",
           "font_color": "FFF7F2",
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            3.0,
+            2.82
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "s3_sh2_p0r0",
@@ -418,13 +539,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 82,
+          "max_chars": 104,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            15.0,
+            2.05
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 29,
+          "max_lines": 3,
+          "level": 6
         }
       ],
       "title_slot_id": "s3_sh8_p0r0",
@@ -456,7 +586,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.01
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s4_sh10_p0r0",
@@ -473,7 +609,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s4_sh13_p0r0",
@@ -490,7 +632,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.01
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s4_sh21_p0r0",
@@ -507,7 +655,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s4_sh26_p0r0",
@@ -524,7 +678,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.01
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s4_sh27_p0r0",
@@ -541,7 +701,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         }
       ],
       "title_slot_id": "s4_sh10_p0r0",
@@ -578,7 +744,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s5_sh49_p0r0",
@@ -595,7 +767,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s5_sh15_p0r0",
@@ -612,7 +790,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s5_sh16_p0r0",
@@ -629,7 +813,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s5_sh18_p0r0",
@@ -646,7 +836,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s5_sh19_p0r0",
@@ -663,7 +859,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         }
       ],
       "title_slot_id": "s5_sh49_p0r0",
@@ -694,13 +896,22 @@
             "paragraph": 0
           },
           "current_text": "请添加标题",
-          "max_chars": 10,
+          "max_chars": 6,
           "editable": true,
           "guidance": "页面标题，建议短句；占位文本必改",
           "font_size_pt": 36.0,
           "font_name": "方正卡通简体",
           "font_color": "FFF7F2",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            6.86,
+            1.79
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s6_sh21_p0r0",
@@ -711,13 +922,21 @@
             "paragraph": 0
           },
           "current_text": "02",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 60.0,
           "font_name": "阿里巴巴普惠体 M",
           "font_color": "FFF7F2",
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            3.0,
+            2.82
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "s6_sh2_p0r0",
@@ -728,13 +947,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 82,
+          "max_chars": 104,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            15.0,
+            2.05
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 29,
+          "max_lines": 3,
+          "level": 6
         }
       ],
       "title_slot_id": "s6_sh8_p0r0",
@@ -760,13 +988,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 82,
+          "max_chars": 108,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            9.16,
+            2.95
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 18,
+          "max_lines": 5,
+          "level": 6
         },
         {
           "slot_id": "s7_sh5_p0r0",
@@ -777,13 +1014,22 @@
             "paragraph": 0
           },
           "current_text": "输入标题",
-          "max_chars": 6,
+          "max_chars": 4,
           "editable": true,
           "guidance": "副标 / 段落小标，6-15 字；占位文本必改",
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.46,
+            1.45
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "s7_sh7_p0r0",
@@ -800,7 +1046,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.01
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s7_sh14_p0r0",
@@ -817,7 +1069,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s7_sh16_p0r0",
@@ -834,7 +1092,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.01
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s7_sh17_p0r0",
@@ -851,7 +1115,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         }
       ],
       "title_slot_id": "s7_sh5_p0r0",
@@ -888,7 +1158,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s8_sh10_p0r0",
@@ -905,7 +1181,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s8_sh13_p0r0",
@@ -922,7 +1204,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s8_sh18_p0r0",
@@ -939,7 +1227,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s8_sh20_p0r0",
@@ -956,7 +1250,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s8_sh21_p0r0",
@@ -973,7 +1273,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s8_sh23_p0r0",
@@ -990,7 +1296,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s8_sh24_p0r0",
@@ -1007,7 +1319,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         }
       ],
       "title_slot_id": "s8_sh10_p0r0",
@@ -1046,7 +1364,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s9_sh13_p0r0",
@@ -1063,7 +1387,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s9_sh20_p0r0",
@@ -1080,7 +1410,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s9_sh21_p0r0",
@@ -1097,7 +1433,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s9_sh23_p0r0",
@@ -1114,7 +1456,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s9_sh24_p0r0",
@@ -1131,7 +1479,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s9_sh26_p0r0",
@@ -1148,7 +1502,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s9_sh27_p0r0",
@@ -1165,7 +1525,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         }
       ],
       "title_slot_id": "s9_sh13_p0r0",
@@ -1198,13 +1564,22 @@
             "paragraph": 0
           },
           "current_text": "请添加标题",
-          "max_chars": 10,
+          "max_chars": 6,
           "editable": true,
           "guidance": "页面标题，建议短句；占位文本必改",
           "font_size_pt": 36.0,
           "font_name": "方正卡通简体",
           "font_color": "FFF7F2",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            6.86,
+            1.79
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s10_sh21_p0r0",
@@ -1215,13 +1590,21 @@
             "paragraph": 0
           },
           "current_text": "03",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 60.0,
           "font_name": "阿里巴巴普惠体 M",
           "font_color": "FFF7F2",
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            3.0,
+            2.82
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "s10_sh2_p0r0",
@@ -1232,13 +1615,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 82,
+          "max_chars": 104,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            15.0,
+            2.05
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 29,
+          "max_lines": 3,
+          "level": 6
         }
       ],
       "title_slot_id": "s10_sh8_p0r0",
@@ -1270,7 +1662,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s11_sh7_p0r0",
@@ -1287,7 +1685,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s11_sh14_p0r0",
@@ -1304,7 +1708,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s11_sh15_p0r0",
@@ -1321,7 +1731,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s11_sh17_p0r0",
@@ -1338,7 +1754,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s11_sh28_p0r0",
@@ -1355,7 +1777,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s11_sh30_p0r0",
@@ -1372,7 +1800,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s11_sh31_p0r0",
@@ -1389,7 +1823,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         }
       ],
       "preview_slot_in_2x2": "右下",
@@ -1429,7 +1869,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.01
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s12_sh18_p0r0",
@@ -1446,7 +1892,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s12_sh23_p0r0",
@@ -1463,7 +1915,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.01
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s12_sh24_p0r0",
@@ -1480,7 +1938,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s12_sh32_p0r0",
@@ -1497,7 +1961,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.01
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s12_sh33_p0r0",
@@ -1514,7 +1984,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         }
       ],
       "title_slot_id": "s12_sh18_p0r0",
@@ -1545,13 +2021,22 @@
             "paragraph": 0
           },
           "current_text": "添加标题",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": true,
           "guidance": "小标题，8 字内；占位文本必改",
           "font_size_pt": 20.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.71,
+            1.15
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "s13_sh58_p0r0",
@@ -1562,13 +2047,22 @@
             "paragraph": 0
           },
           "current_text": "添加标题",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": true,
           "guidance": "小标题，8 字内；占位文本必改",
           "font_size_pt": 20.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.71,
+            1.15
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "s13_sh62_p0r0",
@@ -1579,13 +2073,22 @@
             "paragraph": 0
           },
           "current_text": "添加标题",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": true,
           "guidance": "小标题，8 字内；占位文本必改",
           "font_size_pt": 20.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.71,
+            1.15
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "s13_sh66_p0r0",
@@ -1596,13 +2099,22 @@
             "paragraph": 0
           },
           "current_text": "添加标题",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": true,
           "guidance": "小标题，8 字内；占位文本必改",
           "font_size_pt": 20.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.71,
+            1.15
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "s13_sh16_p0r0",
@@ -1613,13 +2125,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 82,
+          "max_chars": 109,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.12,
+            3.84
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 7,
+          "level": 6
         },
         {
           "slot_id": "s13_sh17_p0r0",
@@ -1630,13 +2151,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 82,
+          "max_chars": 109,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.12,
+            3.84
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 7,
+          "level": 6
         },
         {
           "slot_id": "s13_sh23_p0r0",
@@ -1647,13 +2177,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 82,
+          "max_chars": 109,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.12,
+            3.84
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 7,
+          "level": 6
         },
         {
           "slot_id": "s13_sh24_p0r0",
@@ -1664,13 +2203,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 82,
+          "max_chars": 109,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.12,
+            3.84
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 7,
+          "level": 6
         }
       ],
       "title_slot_id": "s13_sh15_p0r0",
@@ -1699,13 +2247,22 @@
             "paragraph": 0
           },
           "current_text": "请添加标题",
-          "max_chars": 10,
+          "max_chars": 6,
           "editable": true,
           "guidance": "页面标题，建议短句；占位文本必改",
           "font_size_pt": 36.0,
           "font_name": "方正卡通简体",
           "font_color": "FFF7F2",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            6.86,
+            1.79
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s14_sh21_p0r0",
@@ -1716,13 +2273,21 @@
             "paragraph": 0
           },
           "current_text": "04",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 60.0,
           "font_name": "阿里巴巴普惠体 M",
           "font_color": "FFF7F2",
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            3.0,
+            2.82
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "s14_sh2_p0r0",
@@ -1733,13 +2298,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 82,
+          "max_chars": 104,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            15.0,
+            2.05
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 29,
+          "max_lines": 3,
+          "level": 6
         }
       ],
       "title_slot_id": "s14_sh8_p0r0",
@@ -1771,7 +2345,13 @@
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 6
         },
         {
           "slot_id": "s15_sh21_p0r0",
@@ -1788,7 +2368,13 @@
           "font_size_pt": 28.0,
           "font_name": "方正卡通简体",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 4
         },
         {
           "slot_id": "s15_sh18_p0r0",
@@ -1799,13 +2385,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 82,
+          "max_chars": 115,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            24.15,
+            1.15
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 48,
+          "max_lines": 2,
+          "level": 6
         }
       ],
       "preview_slot_in_2x2": "左下",
@@ -1834,13 +2429,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 82,
+          "max_chars": 117,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.4,
+            3.84
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 14,
+          "max_lines": 7,
+          "level": 6
         },
         {
           "slot_id": "s16_sh7_p0r0",
@@ -1851,13 +2455,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 82,
+          "max_chars": 109,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            6.98,
+            3.84
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 7,
+          "level": 6
         }
       ],
       "title_slot_id": "s16_sh6_p0r0",
@@ -1884,13 +2497,22 @@
             "paragraph": 0
           },
           "current_text": "谢谢",
-          "max_chars": 10,
+          "max_chars": 7,
           "editable": true,
           "guidance": "如 '谢谢' / '感谢聆听'。",
           "font_size_pt": 66.0,
           "font_name": "方正卡通简体",
           "font_color": "FFF7F2",
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            16.4,
+            3.07
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 1
         },
         {
           "slot_id": "s17_sh13_p0r0",
@@ -1901,19 +2523,65 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 101,
+          "max_chars": 168,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "Calibri Light",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            15.37,
+            1.79
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 35,
+          "max_lines": 4,
+          "level": 7
         }
       ],
       "title_slot_id": "s17_sh9_p0r0",
       "body_slot_ids": [],
       "decorative_slot_ids": [],
       "text_density": "low"
+    }
+  ],
+  "type_scale": [
+    {
+      "level": 1,
+      "size_pt": 66.0,
+      "slot_count": 2
+    },
+    {
+      "level": 2,
+      "size_pt": 54.0,
+      "slot_count": 1
+    },
+    {
+      "level": 3,
+      "size_pt": 36.0,
+      "slot_count": 4
+    },
+    {
+      "level": 4,
+      "size_pt": 28.0,
+      "slot_count": 1
+    },
+    {
+      "level": 5,
+      "size_pt": 20.0,
+      "slot_count": 4
+    },
+    {
+      "level": 6,
+      "size_pt": 14.0,
+      "slot_count": 12
+    },
+    {
+      "level": 7,
+      "size_pt": 12.0,
+      "slot_count": 3
     }
   ]
 }

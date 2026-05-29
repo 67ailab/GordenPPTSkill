@@ -91,13 +91,22 @@
             "run": 0
           },
           "current_text": "Rice Husk",
-          "max_chars": 30,
+          "max_chars": 14,
           "language": "en",
           "editable": true,
           "guidance": "1-3 个英文单词点题，斜体衬线/装饰字体效果由模板决定，例如 'Annual Review' / 'Project Brief'。",
           "font_size_pt": 54.0,
           "font_name": "微软雅黑",
-          "font_color": null
+          "font_color": null,
+          "box_cm": [
+            13.12,
+            4.87
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 2,
+          "level": 2
         },
         {
           "slot_id": "cover_title_cn",
@@ -114,7 +123,16 @@
           "guidance": "6-12 字中文主标题，例如 '2026 年度工作汇报' / '产品季度复盘'。",
           "font_size_pt": 54.0,
           "font_name": "微软雅黑",
-          "font_color": null
+          "font_color": null,
+          "box_cm": [
+            13.12,
+            4.87
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 2,
+          "level": 2
         }
       ],
       "title_slot_id": "cover_title_en",
@@ -137,13 +155,22 @@
             "run": 0
           },
           "current_text": "目录",
-          "max_chars": 4,
+          "max_chars": 6,
           "language": "zh",
           "editable": true,
           "guidance": "通常保留 '目录'；也可写 '议程' '本期内容' 等。",
           "font_size_pt": 60.0,
           "font_name": "微软雅黑",
-          "font_color": null
+          "font_color": null,
+          "box_cm": [
+            11.44,
+            2.82
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 1,
+          "level": 1
         },
         {
           "slot_id": "agenda_title_en",
@@ -154,13 +181,22 @@
             "run": 1
           },
           "current_text": "Contents",
-          "max_chars": 14,
+          "max_chars": 19,
           "language": "en",
           "editable": true,
           "guidance": "对应英文，例如 'Contents' / 'Agenda'。",
           "font_size_pt": 36.0,
           "font_name": "微软雅黑",
-          "font_color": null
+          "font_color": null,
+          "box_cm": [
+            11.44,
+            2.82
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 2,
+          "level": 4
         },
         {
           "slot_id": "agenda_num_1",
@@ -171,13 +207,22 @@
             "run": 0
           },
           "current_text": "01",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，通常保持 '01'。",
           "font_size_pt": 36.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            2.02,
+            1.8
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "agenda_ch1_cn",
@@ -188,13 +233,22 @@
             "run": 0
           },
           "current_text": "工作完成情况",
-          "max_chars": 10,
+          "max_chars": 7,
           "language": "zh",
           "editable": true,
           "guidance": "本 PPT 第一个章节的中文标题；后续必须与对应分章扉页(slide 3)中文一致。",
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
-          "font_color": null
+          "font_color": null,
+          "box_cm": [
+            7.35,
+            2.65
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "agenda_ch1_en",
@@ -205,13 +259,22 @@
             "run": 0
           },
           "current_text": "Work completion",
-          "max_chars": 26,
+          "max_chars": 9,
           "language": "en",
           "editable": true,
           "guidance": "第一章节英文副标。",
           "font_size_pt": 24.0,
           "font_name": "Arial",
-          "font_color": null
+          "font_color": null,
+          "box_cm": [
+            7.35,
+            2.65
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 8
         },
         {
           "slot_id": "agenda_num_2",
@@ -222,13 +285,22 @@
             "run": 0
           },
           "current_text": "02",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "font_size_pt": 36.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            2.02,
+            1.8
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "agenda_ch2_cn",
@@ -239,13 +311,22 @@
             "run": 0
           },
           "current_text": "工作经验总结",
-          "max_chars": 10,
+          "max_chars": 8,
           "language": "zh",
           "editable": true,
           "guidance": "与 slide 7 中文一致。",
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
-          "font_color": null
+          "font_color": null,
+          "box_cm": [
+            8.73,
+            2.39
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "agenda_ch2_en",
@@ -256,13 +337,22 @@
             "run": 0
           },
           "current_text": "Work experience summary",
-          "max_chars": 40,
+          "max_chars": 7,
           "language": "en",
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "guidance": "短标题"
+          "guidance": "短标题",
+          "box_cm": [
+            8.73,
+            2.39
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "agenda_num_3",
@@ -273,13 +363,22 @@
             "run": 0
           },
           "current_text": "03",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "font_size_pt": 36.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            2.02,
+            1.8
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "agenda_ch3_cn",
@@ -290,13 +389,22 @@
             "run": 0
           },
           "current_text": "后续工作目标",
-          "max_chars": 10,
+          "max_chars": 8,
           "language": "zh",
           "editable": true,
           "guidance": "与 slide 10 中文一致。",
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
-          "font_color": null
+          "font_color": null,
+          "box_cm": [
+            8.22,
+            2.65
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "agenda_ch3_en",
@@ -307,13 +415,22 @@
             "run": 0
           },
           "current_text": "Follow up objectives",
-          "max_chars": 29,
+          "max_chars": 10,
           "language": "en",
           "editable": true,
           "font_size_pt": 24.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "副标 / 段落小标，6-15 字"
+          "guidance": "副标 / 段落小标，6-15 字",
+          "box_cm": [
+            8.22,
+            2.65
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 8
         },
         {
           "slot_id": "agenda_num_4",
@@ -324,13 +441,22 @@
             "run": 0
           },
           "current_text": "04",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "font_size_pt": 36.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            2.02,
+            1.8
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "agenda_ch4_cn",
@@ -341,13 +467,22 @@
             "run": 0
           },
           "current_text": "工作进度计划",
-          "max_chars": 10,
+          "max_chars": 7,
           "language": "zh",
           "editable": true,
           "guidance": "与 slide 13 中文一致。",
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
-          "font_color": null
+          "font_color": null,
+          "box_cm": [
+            7.35,
+            2.65
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "agenda_ch4_en",
@@ -358,13 +493,22 @@
             "run": 0
           },
           "current_text": "Work schedule",
-          "max_chars": 28,
+          "max_chars": 9,
           "language": "en",
           "editable": true,
           "font_size_pt": 24.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "副标 / 段落小标，6-15 字"
+          "guidance": "副标 / 段落小标，6-15 字",
+          "box_cm": [
+            7.35,
+            2.65
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 8
         }
       ],
       "title_slot_id": "agenda_title_cn",
@@ -393,14 +537,22 @@
             "run": 0
           },
           "current_text": "01",
-          "max_chars": 8,
+          "max_chars": 2,
           "editable": false,
           "guidance": "保持 01；如果重新排序章节请改对应数字。",
           "font_size_pt": 88.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            8.09,
+            4.02
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 1
         },
         {
           "slot_id": "div1_cn",
@@ -411,13 +563,22 @@
             "run": 0
           },
           "current_text": "工作完成情况",
-          "max_chars": 10,
+          "max_chars": 7,
           "language": "zh",
           "editable": true,
           "guidance": "必须与 slide 2 agenda_ch1_cn 一致。",
           "font_size_pt": 54.0,
           "font_name": "微软雅黑",
-          "font_color": null
+          "font_color": null,
+          "box_cm": [
+            12.05,
+            4.1
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 2
         },
         {
           "slot_id": "div1_en",
@@ -428,13 +589,22 @@
             "run": 0
           },
           "current_text": "Work completion",
-          "max_chars": 26,
+          "max_chars": 10,
           "language": "en",
           "editable": true,
           "guidance": "必须与 slide 2 agenda_ch1_en 一致。",
           "font_size_pt": 36.0,
           "font_name": "Arial",
-          "font_color": null
+          "font_color": null,
+          "box_cm": [
+            12.05,
+            4.1
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 4
         }
       ],
       "title_slot_id": "div1_cn",
@@ -459,13 +629,22 @@
             "run": 0
           },
           "current_text": "01.",
-          "max_chars": 8,
+          "max_chars": 14,
           "editable": false,
           "guidance": "和分章扉页 01 一致。",
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            14.59,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p4_breadcrumb_cn",
@@ -476,13 +655,22 @@
             "run": 1
           },
           "current_text": "工作完成情况 ",
-          "max_chars": 12,
+          "max_chars": 14,
           "language": "zh",
           "editable": true,
           "guidance": "末尾保留一个空格再接英文；与 div1_cn 一致。",
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
-          "font_color": null
+          "font_color": null,
+          "box_cm": [
+            14.59,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p4_breadcrumb_en",
@@ -493,13 +681,22 @@
             "run": 2
           },
           "current_text": "Work completion",
-          "max_chars": 27,
+          "max_chars": 14,
           "language": "en",
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 33.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "短标题"
+          "guidance": "短标题",
+          "box_cm": [
+            14.59,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "p4_item1_num",
@@ -510,13 +707,22 @@
             "run": 0
           },
           "current_text": "01",
-          "max_chars": 8,
+          "max_chars": 10,
           "editable": false,
           "font_size_pt": 20.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            2.88,
+            2.88
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 3,
+          "max_lines": 3,
+          "level": 9
         },
         {
           "slot_id": "p4_item1_title",
@@ -527,13 +733,22 @@
             "run": 0
           },
           "current_text": "Question 1",
-          "max_chars": 18,
+          "max_chars": 72,
           "editable": true,
           "guidance": "短标题 ≤16 字符，中英皆可。",
           "font_size_pt": 16.0,
           "font_name": "Arial",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            7.38,
+            3.21
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 5,
+          "level": 11
         },
         {
           "slot_id": "p4_item1_body",
@@ -543,13 +758,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod",
-          "max_chars": 176,
+          "max_chars": 192,
           "editable": true,
           "guidance": "2-3 行说明，~60-80 字符。",
           "font_size_pt": 10.0,
           "font_name": "Arial",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            7.38,
+            3.21
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 20,
+          "max_lines": 8,
+          "level": 14
         },
         {
           "slot_id": "p4_item2_num",
@@ -560,13 +784,22 @@
             "run": 0
           },
           "current_text": "02",
-          "max_chars": 8,
+          "max_chars": 10,
           "editable": false,
           "font_size_pt": 20.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            2.88,
+            2.88
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 3,
+          "max_lines": 3,
+          "level": 9
         },
         {
           "slot_id": "p4_item2_title",
@@ -577,13 +810,22 @@
             "run": 0
           },
           "current_text": "Question 2",
-          "max_chars": 18,
+          "max_chars": 72,
           "editable": true,
           "font_size_pt": 16.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "英文短句或专业术语；占位文本必改"
+          "guidance": "英文短句或专业术语；占位文本必改",
+          "box_cm": [
+            7.38,
+            3.21
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 5,
+          "level": 11
         },
         {
           "slot_id": "p4_item2_body",
@@ -593,13 +835,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod",
-          "max_chars": 176,
+          "max_chars": 192,
           "editable": true,
           "font_size_pt": 10.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~86 字；占位文本必改"
+          "guidance": "正文段落，~86 字；占位文本必改",
+          "box_cm": [
+            7.38,
+            3.21
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 20,
+          "max_lines": 8,
+          "level": 14
         },
         {
           "slot_id": "p4_item3_num",
@@ -610,13 +861,22 @@
             "run": 0
           },
           "current_text": "03",
-          "max_chars": 8,
+          "max_chars": 10,
           "editable": false,
           "font_size_pt": 20.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            2.88,
+            2.88
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 3,
+          "max_lines": 3,
+          "level": 9
         },
         {
           "slot_id": "p4_item3_title",
@@ -627,13 +887,22 @@
             "run": 0
           },
           "current_text": "Question 3",
-          "max_chars": 18,
+          "max_chars": 72,
           "editable": true,
           "font_size_pt": 16.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "英文短句或专业术语；占位文本必改"
+          "guidance": "英文短句或专业术语；占位文本必改",
+          "box_cm": [
+            7.38,
+            3.21
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 5,
+          "level": 11
         },
         {
           "slot_id": "p4_item3_body",
@@ -643,13 +912,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod",
-          "max_chars": 176,
+          "max_chars": 192,
           "editable": true,
           "font_size_pt": 10.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~86 字；占位文本必改"
+          "guidance": "正文段落，~86 字；占位文本必改",
+          "box_cm": [
+            7.38,
+            3.21
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 20,
+          "max_lines": 8,
+          "level": 14
         }
       ],
       "title_slot_id": "p4_breadcrumb_cn",
@@ -681,13 +959,22 @@
             "run": 0
           },
           "current_text": "01.",
-          "max_chars": 8,
+          "max_chars": 14,
           "editable": false,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            14.59,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p5_breadcrumb_cn",
@@ -698,13 +985,22 @@
             "run": 1
           },
           "current_text": "工作完成情况 ",
-          "max_chars": 12,
+          "max_chars": 14,
           "language": "zh",
           "editable": true,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            14.59,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p5_breadcrumb_en",
@@ -715,13 +1011,22 @@
             "run": 2
           },
           "current_text": "Work completion",
-          "max_chars": 27,
+          "max_chars": 14,
           "language": "en",
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 33.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "短标题"
+          "guidance": "短标题",
+          "box_cm": [
+            14.59,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "p5_card1_title",
@@ -732,13 +1037,22 @@
             "run": 0
           },
           "current_text": "Question 1",
-          "max_chars": 18,
+          "max_chars": 9,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            5.91,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p5_card1_body",
@@ -748,13 +1062,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 180,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            5.91,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 15,
+          "max_lines": 10,
+          "level": 13
         },
         {
           "slot_id": "p5_card2_title",
@@ -765,13 +1088,22 @@
             "run": 0
           },
           "current_text": "Question 2",
-          "max_chars": 18,
+          "max_chars": 9,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            5.91,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p5_card2_body",
@@ -781,13 +1113,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 180,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            5.91,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 15,
+          "max_lines": 10,
+          "level": 13
         },
         {
           "slot_id": "p5_card3_title",
@@ -798,13 +1139,22 @@
             "run": 0
           },
           "current_text": "Question 3",
-          "max_chars": 18,
+          "max_chars": 9,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            5.91,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p5_card3_body",
@@ -814,13 +1164,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 180,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            5.91,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 15,
+          "max_lines": 10,
+          "level": 13
         },
         {
           "slot_id": "p5_card4_title",
@@ -831,13 +1190,22 @@
             "run": 0
           },
           "current_text": "Question 4",
-          "max_chars": 18,
+          "max_chars": 9,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            5.91,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p5_card4_body",
@@ -847,13 +1215,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 180,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            5.91,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 15,
+          "max_lines": 10,
+          "level": 13
         }
       ],
       "title_slot_id": "p5_breadcrumb_cn",
@@ -883,13 +1260,22 @@
             "run": 0
           },
           "current_text": "01.",
-          "max_chars": 8,
+          "max_chars": 14,
           "editable": false,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            14.59,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p6_breadcrumb_cn",
@@ -900,13 +1286,22 @@
             "run": 1
           },
           "current_text": "工作完成情况 ",
-          "max_chars": 12,
+          "max_chars": 14,
           "language": "zh",
           "editable": true,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            14.59,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p6_breadcrumb_en",
@@ -917,13 +1312,22 @@
             "run": 2
           },
           "current_text": "Work completion",
-          "max_chars": 27,
+          "max_chars": 14,
           "language": "en",
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 33.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "短标题"
+          "guidance": "短标题",
+          "box_cm": [
+            14.59,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "p6_col1_title",
@@ -934,13 +1338,22 @@
             "run": 0
           },
           "current_text": "Question 1",
-          "max_chars": 18,
+          "max_chars": 9,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            6.11,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p6_col1_body",
@@ -950,13 +1363,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 180,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            6.11,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 15,
+          "max_lines": 10,
+          "level": 13
         },
         {
           "slot_id": "p6_col2_title",
@@ -967,13 +1389,22 @@
             "run": 0
           },
           "current_text": "Question 2",
-          "max_chars": 18,
+          "max_chars": 9,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            6.11,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p6_col2_body",
@@ -983,13 +1414,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 180,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            6.11,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 15,
+          "max_lines": 10,
+          "level": 13
         },
         {
           "slot_id": "p6_col3_title",
@@ -1000,13 +1440,22 @@
             "run": 0
           },
           "current_text": "Question 3",
-          "max_chars": 18,
+          "max_chars": 9,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            6.11,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p6_col3_body",
@@ -1016,13 +1465,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 180,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            6.11,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 15,
+          "max_lines": 10,
+          "level": 13
         },
         {
           "slot_id": "p6_col4_title",
@@ -1033,13 +1491,22 @@
             "run": 0
           },
           "current_text": "Question 4",
-          "max_chars": 18,
+          "max_chars": 9,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            6.11,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p6_col4_body",
@@ -1049,13 +1516,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 180,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            6.11,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 15,
+          "max_lines": 10,
+          "level": 13
         }
       ],
       "title_slot_id": "p6_breadcrumb_cn",
@@ -1085,14 +1561,22 @@
             "run": 0
           },
           "current_text": "02",
-          "max_chars": 8,
+          "max_chars": 2,
           "editable": false,
           "font_size_pt": 88.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "bold": true,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            8.09,
+            4.02
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 1
         },
         {
           "slot_id": "div2_cn",
@@ -1103,13 +1587,22 @@
             "run": 0
           },
           "current_text": "工作经验总结",
-          "max_chars": 10,
+          "max_chars": 8,
           "language": "zh",
           "editable": true,
           "font_size_pt": 54.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "guidance": "页面主标题，建议≤ 6 个中文字"
+          "guidance": "页面主标题，建议≤ 6 个中文字",
+          "box_cm": [
+            14.03,
+            3.93
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 2
         },
         {
           "slot_id": "div2_en",
@@ -1120,13 +1613,22 @@
             "run": 0
           },
           "current_text": "Work experience summary",
-          "max_chars": 33,
+          "max_chars": 14,
           "language": "en",
           "editable": true,
           "font_size_pt": 32.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            14.03,
+            3.93
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 1,
+          "level": 6
         }
       ],
       "title_slot_id": "div2_cn",
@@ -1151,13 +1653,22 @@
             "run": 0
           },
           "current_text": "02.",
-          "max_chars": 8,
+          "max_chars": 16,
           "editable": false,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            16.07,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 14,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p8_breadcrumb_cn",
@@ -1168,13 +1679,22 @@
             "run": 1
           },
           "current_text": "工作经验总结 ",
-          "max_chars": 12,
+          "max_chars": 16,
           "language": "zh",
           "editable": true,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            16.07,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 14,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p8_breadcrumb_en",
@@ -1185,13 +1705,22 @@
             "run": 2
           },
           "current_text": "Work experience summary",
-          "max_chars": 40,
+          "max_chars": 33,
           "language": "en",
           "editable": true,
           "font_size_pt": 16.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "英文短句或专业术语"
+          "guidance": "英文短句或专业术语",
+          "box_cm": [
+            16.07,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 28,
+          "max_lines": 1,
+          "level": 11
         },
         {
           "slot_id": "p8_block1_title",
@@ -1202,13 +1731,22 @@
             "run": 0
           },
           "current_text": "Question 1",
-          "max_chars": 16,
+          "max_chars": 76,
           "editable": true,
           "guidance": "白字深底，建议较短的总结性标题。",
           "font_size_pt": 24.0,
           "font_name": "Arial",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            14.14,
+            3.82
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 16,
+          "max_lines": 4,
+          "level": 8
         },
         {
           "slot_id": "p8_block1_body",
@@ -1218,13 +1756,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod. Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod",
-          "max_chars": 356,
+          "max_chars": 444,
           "editable": true,
           "guidance": "3-4 行说明，~120-150 字符。",
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            14.14,
+            3.82
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 37,
+          "max_lines": 10,
+          "level": 13
         },
         {
           "slot_id": "p8_pic1_caption",
@@ -1235,13 +1782,22 @@
             "run": 0
           },
           "current_text": "Question 1",
-          "max_chars": 18,
+          "max_chars": 8,
           "editable": true,
           "guidance": "图片下方简短说明。",
-          "font_size_pt": null,
+          "font_size_pt": 27.0,
           "font_name": "Arial",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            7.44,
+            1.32
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "p8_pic2_caption",
@@ -1252,13 +1808,22 @@
             "run": 0
           },
           "current_text": "Question 2",
-          "max_chars": 18,
+          "max_chars": 8,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 27.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            7.44,
+            1.32
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "p8_block2_title",
@@ -1269,13 +1834,22 @@
             "run": 0
           },
           "current_text": "Question 1",
-          "max_chars": 16,
+          "max_chars": 76,
           "editable": true,
           "font_size_pt": 24.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "副标 / 段落小标，6-15 字；占位文本必改"
+          "guidance": "副标 / 段落小标，6-15 字；占位文本必改",
+          "box_cm": [
+            14.14,
+            3.82
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 16,
+          "max_lines": 4,
+          "level": 8
         },
         {
           "slot_id": "p8_block2_body",
@@ -1285,13 +1859,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod. Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod",
-          "max_chars": 356,
+          "max_chars": 444,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~174 字；占位文本必改"
+          "guidance": "正文段落，~174 字；占位文本必改",
+          "box_cm": [
+            14.14,
+            3.82
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 37,
+          "max_lines": 10,
+          "level": 13
         }
       ],
       "title_slot_id": "p8_breadcrumb_cn",
@@ -1319,13 +1902,22 @@
             "run": 0
           },
           "current_text": "02.",
-          "max_chars": 8,
+          "max_chars": 16,
           "editable": false,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            16.07,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 14,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p9_breadcrumb_cn",
@@ -1336,13 +1928,22 @@
             "run": 1
           },
           "current_text": "工作经验总结 ",
-          "max_chars": 12,
+          "max_chars": 16,
           "language": "zh",
           "editable": true,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            16.07,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 14,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p9_breadcrumb_en",
@@ -1353,13 +1954,22 @@
             "run": 2
           },
           "current_text": "Work experience summary",
-          "max_chars": 40,
+          "max_chars": 33,
           "language": "en",
           "editable": true,
           "font_size_pt": 16.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "英文短句或专业术语"
+          "guidance": "英文短句或专业术语",
+          "box_cm": [
+            16.07,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 28,
+          "max_lines": 1,
+          "level": 11
         },
         {
           "slot_id": "p9_wheel_center",
@@ -1370,13 +1980,22 @@
             "run": 0
           },
           "current_text": "METHOD",
-          "max_chars": 12,
+          "max_chars": 6,
           "editable": true,
           "guidance": "通常是英文大写一词，如 METHOD/PILLARS/MODEL。",
-          "font_size_pt": 18.65,
+          "font_size_pt": 18.5,
           "font_name": "微软雅黑",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            3.58,
+            1.05
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 1,
+          "level": 10
         },
         {
           "slot_id": "p9_num_1",
@@ -1387,13 +2006,21 @@
             "run": 0
           },
           "current_text": "01",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": false,
           "font_size_pt": 28.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            2.93,
+            2.93
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 2
         },
         {
           "slot_id": "p9_num_2",
@@ -1404,13 +2031,21 @@
             "run": 0
           },
           "current_text": "02",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": false,
           "font_size_pt": 28.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            2.94,
+            2.93
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 2
         },
         {
           "slot_id": "p9_num_3",
@@ -1421,13 +2056,21 @@
             "run": 0
           },
           "current_text": "03",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": false,
           "font_size_pt": 28.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            2.93,
+            2.94
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 2
         },
         {
           "slot_id": "p9_num_4",
@@ -1438,13 +2081,21 @@
             "run": 0
           },
           "current_text": "04",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": false,
           "font_size_pt": 28.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            2.94,
+            2.94
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 2
         },
         {
           "slot_id": "p9_q1_title",
@@ -1455,13 +2106,22 @@
             "run": 0
           },
           "current_text": "Question 1",
-          "max_chars": 18,
+          "max_chars": 60,
           "editable": true,
           "font_size_pt": 20.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "英文短句或专业术语；占位文本必改"
+          "guidance": "英文短句或专业术语；占位文本必改",
+          "box_cm": [
+            7.95,
+            3.65
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "p9_q1_body",
@@ -1471,13 +2131,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 205,
           "editable": true,
           "font_size_pt": 11.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            7.95,
+            3.65
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 9,
+          "level": 12
         },
         {
           "slot_id": "p9_q2_title",
@@ -1488,13 +2157,22 @@
             "run": 0
           },
           "current_text": "Question 2",
-          "max_chars": 18,
+          "max_chars": 60,
           "editable": true,
           "font_size_pt": 20.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "英文短句或专业术语；占位文本必改"
+          "guidance": "英文短句或专业术语；占位文本必改",
+          "box_cm": [
+            7.95,
+            3.65
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "p9_q2_body",
@@ -1504,13 +2182,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 205,
           "editable": true,
           "font_size_pt": 11.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            7.95,
+            3.65
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 9,
+          "level": 12
         },
         {
           "slot_id": "p9_q3_title",
@@ -1521,13 +2208,22 @@
             "run": 0
           },
           "current_text": "Question 3",
-          "max_chars": 18,
+          "max_chars": 60,
           "editable": true,
           "font_size_pt": 20.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "英文短句或专业术语；占位文本必改"
+          "guidance": "英文短句或专业术语；占位文本必改",
+          "box_cm": [
+            7.95,
+            3.65
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "p9_q3_body",
@@ -1537,13 +2233,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 205,
           "editable": true,
           "font_size_pt": 11.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            7.95,
+            3.65
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 9,
+          "level": 12
         },
         {
           "slot_id": "p9_q4_title",
@@ -1554,13 +2259,22 @@
             "run": 0
           },
           "current_text": "Question 4",
-          "max_chars": 18,
+          "max_chars": 60,
           "editable": true,
           "font_size_pt": 20.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "英文短句或专业术语；占位文本必改"
+          "guidance": "英文短句或专业术语；占位文本必改",
+          "box_cm": [
+            7.95,
+            3.65
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "p9_q4_body",
@@ -1570,13 +2284,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 205,
           "editable": true,
           "font_size_pt": 11.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            7.95,
+            3.65
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 9,
+          "level": 12
         }
       ],
       "title_slot_id": "p9_breadcrumb_cn",
@@ -1610,14 +2333,22 @@
             "run": 0
           },
           "current_text": "03",
-          "max_chars": 8,
+          "max_chars": 2,
           "editable": false,
           "font_size_pt": 88.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "bold": true,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            8.09,
+            4.02
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 1
         },
         {
           "slot_id": "div3_cn",
@@ -1628,13 +2359,22 @@
             "run": 0
           },
           "current_text": "后续工作目标",
-          "max_chars": 10,
+          "max_chars": 7,
           "language": "zh",
           "editable": true,
           "font_size_pt": 54.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "guidance": "页面主标题，建议≤ 6 个中文字"
+          "guidance": "页面主标题，建议≤ 6 个中文字",
+          "box_cm": [
+            12.05,
+            4.1
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 2
         },
         {
           "slot_id": "div3_en",
@@ -1645,13 +2385,22 @@
             "run": 0
           },
           "current_text": "Follow up objectives",
-          "max_chars": 29,
+          "max_chars": 10,
           "language": "en",
           "editable": true,
           "font_size_pt": 36.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            12.05,
+            4.1
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 4
         }
       ],
       "title_slot_id": "div3_cn",
@@ -1676,13 +2425,22 @@
             "run": 0
           },
           "current_text": "03.",
-          "max_chars": 8,
+          "max_chars": 15,
           "editable": false,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            15.07,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p11_breadcrumb_cn",
@@ -1693,13 +2451,22 @@
             "run": 1
           },
           "current_text": "后续工作目标 ",
-          "max_chars": 12,
+          "max_chars": 15,
           "language": "zh",
           "editable": true,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            15.07,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p11_breadcrumb_en",
@@ -1710,13 +2477,22 @@
             "run": 2
           },
           "current_text": "Follow up objectives",
-          "max_chars": 35,
+          "max_chars": 14,
           "language": "en",
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 33.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "短标题"
+          "guidance": "短标题",
+          "box_cm": [
+            15.07,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "p11_col1_title",
@@ -1727,13 +2503,22 @@
             "run": 0
           },
           "current_text": "Question 1",
-          "max_chars": 18,
+          "max_chars": 7,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            5.76,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 3,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p11_col1_body",
@@ -1743,13 +2528,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod",
-          "max_chars": 176,
+          "max_chars": 168,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~86 字；占位文本必改"
+          "guidance": "正文段落，~86 字；占位文本必改",
+          "box_cm": [
+            5.76,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 14,
+          "max_lines": 10,
+          "level": 13
         },
         {
           "slot_id": "p11_col2_title",
@@ -1760,13 +2554,22 @@
             "run": 0
           },
           "current_text": "Question 2",
-          "max_chars": 18,
+          "max_chars": 7,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            5.76,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 3,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p11_col2_body",
@@ -1776,13 +2579,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod",
-          "max_chars": 176,
+          "max_chars": 168,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~86 字；占位文本必改"
+          "guidance": "正文段落，~86 字；占位文本必改",
+          "box_cm": [
+            5.76,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 14,
+          "max_lines": 10,
+          "level": 13
         },
         {
           "slot_id": "p11_col3_title",
@@ -1793,13 +2605,22 @@
             "run": 0
           },
           "current_text": "Question 3",
-          "max_chars": 18,
+          "max_chars": 7,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            5.76,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 3,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p11_col3_body",
@@ -1809,13 +2630,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod",
-          "max_chars": 176,
+          "max_chars": 168,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~86 字；占位文本必改"
+          "guidance": "正文段落，~86 字；占位文本必改",
+          "box_cm": [
+            5.76,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 14,
+          "max_lines": 10,
+          "level": 13
         },
         {
           "slot_id": "p11_col4_title",
@@ -1826,13 +2656,22 @@
             "run": 0
           },
           "current_text": "Question 4",
-          "max_chars": 18,
+          "max_chars": 7,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            5.76,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 3,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p11_col4_body",
@@ -1842,13 +2681,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod",
-          "max_chars": 176,
+          "max_chars": 168,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~86 字；占位文本必改"
+          "guidance": "正文段落，~86 字；占位文本必改",
+          "box_cm": [
+            5.76,
+            4.1
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 14,
+          "max_lines": 10,
+          "level": 13
         }
       ],
       "title_slot_id": "p11_breadcrumb_cn",
@@ -1878,13 +2726,22 @@
             "run": 0
           },
           "current_text": "03.",
-          "max_chars": 8,
+          "max_chars": 15,
           "editable": false,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            15.07,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p12_breadcrumb_cn",
@@ -1895,13 +2752,22 @@
             "run": 1
           },
           "current_text": "后续工作目标 ",
-          "max_chars": 12,
+          "max_chars": 15,
           "language": "zh",
           "editable": true,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            15.07,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 13,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p12_breadcrumb_en",
@@ -1912,13 +2778,22 @@
             "run": 2
           },
           "current_text": "Follow up objectives",
-          "max_chars": 35,
+          "max_chars": 14,
           "language": "en",
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 33.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "短标题"
+          "guidance": "短标题",
+          "box_cm": [
+            15.07,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 12,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "p12_diamond_1",
@@ -1929,13 +2804,21 @@
             "run": 0
           },
           "current_text": "1",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "font_size_pt": 35.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            1.6,
+            1.49
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "p12_key1",
@@ -1946,13 +2829,22 @@
             "run": 0
           },
           "current_text": "Key Words Here",
-          "max_chars": 24,
+          "max_chars": 60,
           "editable": true,
           "guidance": "短语，例如 '提质增效' 'Customer First'。",
           "font_size_pt": 20.0,
           "font_name": "Arial",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            7.84,
+            4.08
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "p12_body1",
@@ -1962,13 +2854,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 228,
           "editable": true,
           "font_size_pt": 11.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            7.84,
+            4.08
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 10,
+          "level": 12
         },
         {
           "slot_id": "p12_diamond_2",
@@ -1979,13 +2880,21 @@
             "run": 0
           },
           "current_text": "2",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "font_size_pt": 35.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            1.6,
+            1.49
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "p12_key2",
@@ -1996,13 +2905,22 @@
             "run": 0
           },
           "current_text": "Key Words Here",
-          "max_chars": 24,
+          "max_chars": 60,
           "editable": true,
           "font_size_pt": 20.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "英文短句或专业术语"
+          "guidance": "英文短句或专业术语",
+          "box_cm": [
+            7.84,
+            4.08
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "p12_body2",
@@ -2012,13 +2930,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 228,
           "editable": true,
           "font_size_pt": 11.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            7.84,
+            4.08
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 10,
+          "level": 12
         },
         {
           "slot_id": "p12_diamond_3",
@@ -2029,13 +2956,21 @@
             "run": 0
           },
           "current_text": "3",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "font_size_pt": 35.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            1.6,
+            1.49
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "p12_key3",
@@ -2046,13 +2981,22 @@
             "run": 0
           },
           "current_text": "Key Words Here",
-          "max_chars": 24,
+          "max_chars": 60,
           "editable": true,
           "font_size_pt": 20.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "英文短句或专业术语"
+          "guidance": "英文短句或专业术语",
+          "box_cm": [
+            7.84,
+            4.08
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "p12_body3",
@@ -2062,13 +3006,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 228,
           "editable": true,
           "font_size_pt": 11.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            7.84,
+            4.08
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 10,
+          "level": 12
         },
         {
           "slot_id": "p12_diamond_4",
@@ -2079,13 +3032,21 @@
             "run": 0
           },
           "current_text": "4",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "font_size_pt": 35.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            1.6,
+            1.49
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "p12_key4",
@@ -2096,13 +3057,22 @@
             "run": 0
           },
           "current_text": "Key Words Here",
-          "max_chars": 24,
+          "max_chars": 60,
           "editable": true,
           "font_size_pt": 20.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "英文短句或专业术语"
+          "guidance": "英文短句或专业术语",
+          "box_cm": [
+            7.84,
+            4.08
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 5,
+          "level": 9
         },
         {
           "slot_id": "p12_body4",
@@ -2112,13 +3082,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 228,
           "editable": true,
           "font_size_pt": 11.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            7.84,
+            4.08
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 10,
+          "level": 12
         }
       ],
       "title_slot_id": "p12_breadcrumb_cn",
@@ -2152,14 +3131,22 @@
             "run": 0
           },
           "current_text": "04",
-          "max_chars": 8,
+          "max_chars": 2,
           "editable": false,
           "font_size_pt": 88.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "bold": true,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            8.09,
+            4.02
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 1
         },
         {
           "slot_id": "div4_cn",
@@ -2170,13 +3157,22 @@
             "run": 0
           },
           "current_text": "工作进度计划",
-          "max_chars": 10,
+          "max_chars": 7,
           "language": "zh",
           "editable": true,
           "font_size_pt": 54.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "guidance": "页面主标题，建议≤ 6 个中文字"
+          "guidance": "页面主标题，建议≤ 6 个中文字",
+          "box_cm": [
+            12.11,
+            4.1
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 2
         },
         {
           "slot_id": "div4_en",
@@ -2187,13 +3183,22 @@
             "run": 0
           },
           "current_text": "Work schedule",
-          "max_chars": 28,
+          "max_chars": 10,
           "language": "en",
           "editable": true,
           "font_size_pt": 36.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            12.11,
+            4.1
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 4
         }
       ],
       "title_slot_id": "div4_cn",
@@ -2218,13 +3223,22 @@
             "run": 0
           },
           "current_text": "04.",
-          "max_chars": 8,
+          "max_chars": 13,
           "editable": false,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            13.53,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 11,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p14_breadcrumb_cn",
@@ -2235,13 +3249,22 @@
             "run": 1
           },
           "current_text": "工作进度计划 ",
-          "max_chars": 12,
+          "max_chars": 13,
           "language": "zh",
           "editable": true,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            13.53,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 11,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p14_breadcrumb_en",
@@ -2252,13 +3275,22 @@
             "run": 2
           },
           "current_text": "Work schedule",
-          "max_chars": 28,
+          "max_chars": 13,
           "language": "en",
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 33.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "短标题"
+          "guidance": "短标题",
+          "box_cm": [
+            13.53,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 11,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "p14_q1_title",
@@ -2269,13 +3301,22 @@
             "run": 0
           },
           "current_text": "Question 1",
-          "max_chars": 18,
+          "max_chars": 12,
           "editable": true,
           "guidance": "短期阶段或第一步，例如 'Q1 启动'。",
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            7.53,
+            3.43
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p14_q1_body",
@@ -2285,13 +3326,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 205,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            7.53,
+            3.43
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 9,
+          "level": 13
         },
         {
           "slot_id": "p14_q2_title",
@@ -2302,13 +3352,22 @@
             "run": 0
           },
           "current_text": "Question 2",
-          "max_chars": 18,
+          "max_chars": 12,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            7.7,
+            3.43
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p14_q2_body",
@@ -2318,13 +3377,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 216,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            7.7,
+            3.43
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 20,
+          "max_lines": 9,
+          "level": 13
         },
         {
           "slot_id": "p14_q3_title",
@@ -2335,13 +3403,22 @@
             "run": 0
           },
           "current_text": "Question 3",
-          "max_chars": 18,
+          "max_chars": 12,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            7.53,
+            3.43
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p14_q3_body",
@@ -2351,13 +3428,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 205,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            7.53,
+            3.43
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 9,
+          "level": 13
         },
         {
           "slot_id": "p14_q4_title",
@@ -2368,13 +3454,22 @@
             "run": 0
           },
           "current_text": "Question 4",
-          "max_chars": 18,
+          "max_chars": 12,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            7.53,
+            3.43
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p14_q4_body",
@@ -2384,13 +3479,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 205,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            7.53,
+            3.43
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 9,
+          "level": 13
         }
       ],
       "title_slot_id": "p14_breadcrumb_cn",
@@ -2423,13 +3527,22 @@
             "run": 0
           },
           "current_text": "04.",
-          "max_chars": 8,
+          "max_chars": 13,
           "editable": false,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            13.53,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 11,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p15_breadcrumb_cn",
@@ -2440,13 +3553,22 @@
             "run": 1
           },
           "current_text": "工作进度计划 ",
-          "max_chars": 12,
+          "max_chars": 13,
           "language": "zh",
           "editable": true,
           "font_size_pt": 32.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "guidance": "页面标题，建议短句"
+          "guidance": "页面标题，建议短句",
+          "box_cm": [
+            13.53,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 11,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "p15_breadcrumb_en",
@@ -2457,13 +3579,22 @@
             "run": 2
           },
           "current_text": "Work schedule",
-          "max_chars": 28,
+          "max_chars": 13,
           "language": "en",
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 33.0,
           "font_name": "Arial",
           "font_color": null,
-          "guidance": "短标题"
+          "guidance": "短标题",
+          "box_cm": [
+            13.53,
+            1.62
+          ],
+          "wrap": false,
+          "autofit": false,
+          "chars_per_line": 11,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "p15_pct_value",
@@ -2474,13 +3605,21 @@
             "run": 0
           },
           "current_text": "85",
-          "max_chars": 8,
+          "max_chars": 2,
           "editable": false,
           "guidance": "0-100 整数；'%' 是另一个 run，单独的百分号请用 p15_pct_unit。",
           "font_size_pt": 48.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            4.78,
+            3.16
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 1
         },
         {
           "slot_id": "p15_pct_unit",
@@ -2491,13 +3630,22 @@
             "run": 1
           },
           "current_text": "%",
-          "max_chars": 8,
+          "max_chars": 7,
           "editable": false,
           "font_size_pt": 36.0,
           "font_name": "微软雅黑",
           "font_color": null,
           "language": "number",
-          "guidance": "装饰符号，保持不变"
+          "guidance": "装饰符号，保持不变",
+          "box_cm": [
+            4.78,
+            3.16
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 3,
+          "max_lines": 2,
+          "level": 4
         },
         {
           "slot_id": "p15_pct_label",
@@ -2508,13 +3656,22 @@
             "run": 0
           },
           "current_text": "项目名称",
-          "max_chars": 10,
+          "max_chars": 28,
           "editable": true,
           "guidance": "指标名称，如 '达成率' '客户满意度'。",
           "font_size_pt": 20.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.78,
+            3.16
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 4,
+          "level": 9
         },
         {
           "slot_id": "p15_num_1",
@@ -2524,14 +3681,23 @@
             "paragraph": 0
           },
           "current_text": "01",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": "FFFFFF",
           "bold": true,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            2.77,
+            2.7
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "p15_stat1_title",
@@ -2542,13 +3708,22 @@
             "run": 0
           },
           "current_text": "Question 1",
-          "max_chars": 18,
+          "max_chars": 9,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            6.86,
+            3.43
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p15_stat1_body",
@@ -2558,13 +3733,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 183,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            6.86,
+            3.43
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 17,
+          "max_lines": 9,
+          "level": 13
         },
         {
           "slot_id": "p15_num_2",
@@ -2574,14 +3758,23 @@
             "paragraph": 0
           },
           "current_text": "02",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": "FFFFFF",
           "bold": true,
           "language": "number",
-          "guidance": "装饰序号，重排章节才改"
+          "guidance": "装饰序号，重排章节才改",
+          "box_cm": [
+            2.77,
+            2.7
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "p15_stat2_title",
@@ -2592,13 +3785,22 @@
             "run": 0
           },
           "current_text": "Question 2",
-          "max_chars": 18,
+          "max_chars": 9,
           "editable": true,
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "短标题；占位文本必改"
+          "guidance": "短标题；占位文本必改",
+          "box_cm": [
+            6.86,
+            3.43
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "p15_stat2_body",
@@ -2608,13 +3810,22 @@
             "paragraph": 1
           },
           "current_text": "Vivamus Quam Dolor, Tempor Ac Gravida Sit Amet, Porta Fermentum Magna. Aliquam Euismod.",
-          "max_chars": 179,
+          "max_chars": 183,
           "editable": true,
           "font_size_pt": 10.5,
           "font_name": "Arial",
           "font_color": null,
           "language": "en",
-          "guidance": "正文段落，~87 字；占位文本必改"
+          "guidance": "正文段落，~87 字；占位文本必改",
+          "box_cm": [
+            6.86,
+            3.43
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 17,
+          "max_lines": 9,
+          "level": 13
         }
       ],
       "title_slot_id": "p15_breadcrumb_cn",
@@ -2646,13 +3857,22 @@
             "run": 0
           },
           "current_text": "Thank You",
-          "max_chars": 16,
+          "max_chars": 14,
           "editable": true,
           "guidance": "如 'Thank You' / 'Q & A' / 'The End'。",
           "font_size_pt": 54.0,
           "font_name": "Arial",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            13.12,
+            4.87
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 2,
+          "level": 2
         },
         {
           "slot_id": "end_cn",
@@ -2663,19 +3883,100 @@
             "run": 0
           },
           "current_text": "感谢各位观看",
-          "max_chars": 12,
+          "max_chars": 14,
           "editable": true,
           "guidance": "如 '感谢各位观看' '欢迎交流'。",
           "font_size_pt": 54.0,
           "font_name": "微软雅黑",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            13.12,
+            4.87
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 2,
+          "level": 2
         }
       ],
       "title_slot_id": "end_en",
       "body_slot_ids": [],
       "decorative_slot_ids": [],
       "text_density": "low"
+    }
+  ],
+  "type_scale": [
+    {
+      "level": 1,
+      "size_pt": 60.0,
+      "slot_count": 1
+    },
+    {
+      "level": 2,
+      "size_pt": 54.0,
+      "slot_count": 8
+    },
+    {
+      "level": 3,
+      "size_pt": 40.0,
+      "slot_count": 19
+    },
+    {
+      "level": 4,
+      "size_pt": 36.0,
+      "slot_count": 4
+    },
+    {
+      "level": 5,
+      "size_pt": 33.0,
+      "slot_count": 7
+    },
+    {
+      "level": 6,
+      "size_pt": 32.0,
+      "slot_count": 14
+    },
+    {
+      "level": 7,
+      "size_pt": 27.0,
+      "slot_count": 2
+    },
+    {
+      "level": 8,
+      "size_pt": 24.0,
+      "slot_count": 5
+    },
+    {
+      "level": 9,
+      "size_pt": 20.0,
+      "slot_count": 9
+    },
+    {
+      "level": 10,
+      "size_pt": 18.5,
+      "slot_count": 1
+    },
+    {
+      "level": 11,
+      "size_pt": 16.0,
+      "slot_count": 5
+    },
+    {
+      "level": 12,
+      "size_pt": 11.0,
+      "slot_count": 8
+    },
+    {
+      "level": 13,
+      "size_pt": 10.5,
+      "slot_count": 20
+    },
+    {
+      "level": 14,
+      "size_pt": 10.0,
+      "slot_count": 3
     }
   ]
 }

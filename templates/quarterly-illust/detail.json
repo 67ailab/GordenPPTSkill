@@ -88,7 +88,13 @@
           "font_name": "思源黑体 CN Bold",
           "font_color": null,
           "bold": true,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 13
         },
         {
           "slot_id": "s1_sh37_p0r0",
@@ -99,14 +105,23 @@
             "paragraph": 0
           },
           "current_text": "20XX/01/01",
-          "max_chars": 18,
+          "max_chars": 9,
           "editable": true,
           "guidance": "一句话说明",
           "font_size_pt": 14.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            4.36,
+            0.89
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 13
         },
         {
           "slot_id": "s1_sh3_p0r0",
@@ -117,13 +132,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处添加副标题内容",
-          "max_chars": 21,
+          "max_chars": 22,
           "editable": true,
           "guidance": "小标题，15 字内；占位文本必改",
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.14,
+            1.11
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 1,
+          "level": 11
         },
         {
           "slot_id": "s1_sh5_p0r0",
@@ -134,14 +158,23 @@
             "paragraph": 0
           },
           "current_text": "蓝灰酸性",
-          "max_chars": 6,
+          "max_chars": 16,
           "editable": true,
           "guidance": "页面主标题，建议≤ 6 个中文字",
           "font_size_pt": 54.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.14,
+            4.87
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "s1_sh5_p1r0",
@@ -152,14 +185,23 @@
             "paragraph": 1
           },
           "current_text": "季度工作总结",
-          "max_chars": 10,
+          "max_chars": 16,
           "editable": true,
           "guidance": "页面主标题，建议≤ 6 个中文字",
           "font_size_pt": 54.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.14,
+            4.87
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 2,
+          "level": 3
         },
         {
           "slot_id": "s1_sh19_p0r0",
@@ -170,14 +212,23 @@
             "paragraph": 0
           },
           "current_text": "汇报人：稻小壳",
-          "max_chars": 12,
+          "max_chars": 26,
           "editable": true,
           "guidance": "格式：汇报人：XXX / 演讲者：XXX",
           "font_size_pt": 14.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.92,
+            1.24
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 11,
+          "max_lines": 2,
+          "level": 13
         }
       ],
       "preview_slot_in_2x2": "左上",
@@ -205,14 +256,23 @@
             "paragraph": 0
           },
           "current_text": "本季度工作概述",
-          "max_chars": 13,
+          "max_chars": 19,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Bold",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.69,
+            1.4
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 16,
+          "max_lines": 1,
+          "level": 11
         },
         {
           "slot_id": "s2_sh66_p0r0",
@@ -223,14 +283,23 @@
             "paragraph": 0
           },
           "current_text": "重点工作介绍",
-          "max_chars": 11,
+          "max_chars": 19,
           "editable": true,
           "guidance": "小标题，10 字内",
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Bold",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.69,
+            1.4
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 16,
+          "max_lines": 1,
+          "level": 11
         },
         {
           "slot_id": "s2_sh60_p0r0",
@@ -241,14 +310,23 @@
             "paragraph": 0
           },
           "current_text": "工作中不足之处",
-          "max_chars": 13,
+          "max_chars": 19,
           "editable": true,
           "guidance": "小标题，11 字内",
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Bold",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.69,
+            1.4
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 16,
+          "max_lines": 1,
+          "level": 11
         },
         {
           "slot_id": "s2_sh54_p0r0",
@@ -259,14 +337,23 @@
             "paragraph": 0
           },
           "current_text": "后期工作规划",
-          "max_chars": 11,
+          "max_chars": 19,
           "editable": true,
           "guidance": "小标题，10 字内",
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Bold",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.69,
+            1.4
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 16,
+          "max_lines": 1,
+          "level": 11
         },
         {
           "slot_id": "s2_sh71_p0r0",
@@ -277,14 +364,23 @@
             "paragraph": 0
           },
           "current_text": "01",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 36.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            2.24,
+            1.71
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "s2_sh65_p0r0",
@@ -295,14 +391,23 @@
             "paragraph": 0
           },
           "current_text": "02",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 36.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            2.24,
+            1.71
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "s2_sh59_p0r0",
@@ -313,14 +418,23 @@
             "paragraph": 0
           },
           "current_text": "03",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 36.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            2.24,
+            1.71
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "s2_sh53_p0r0",
@@ -331,14 +445,23 @@
             "paragraph": 0
           },
           "current_text": "04",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 36.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            2.24,
+            1.71
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 6
         },
         {
           "slot_id": "s2_sh45_p0r0",
@@ -349,13 +472,22 @@
             "paragraph": 0
           },
           "current_text": "目录",
-          "max_chars": 4,
+          "max_chars": 3,
           "editable": true,
           "guidance": "通常保留 目录 / Contents / Agenda",
           "font_size_pt": 48.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.92,
+            2.31
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 3,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "s2_sh86_p0r0",
@@ -366,14 +498,23 @@
             "paragraph": 0
           },
           "current_text": "CONTENTS",
-          "max_chars": 12,
+          "max_chars": 7,
           "editable": true,
           "guidance": "通常保留 目录 / Contents / Agenda",
           "font_size_pt": 24.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            5.92,
+            1.28
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 9
         }
       ],
       "preview_slot_in_2x2": "右上",
@@ -403,14 +544,23 @@
             "paragraph": 0
           },
           "current_text": "本季度工作概述",
-          "max_chars": 11,
+          "max_chars": 8,
           "editable": true,
           "guidance": "页面主标题，建议≤ 7 个中文字",
           "font_size_pt": 54.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.91,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s3_sh18_p0r0",
@@ -421,14 +571,22 @@
             "paragraph": 0
           },
           "current_text": "01",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 80.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            4.02,
+            3.0
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "s3_sh30_p0r0",
@@ -439,14 +597,23 @@
             "paragraph": 0
           },
           "current_text": "YOUR LOGO",
-          "max_chars": 19,
+          "max_chars": 7,
           "editable": true,
           "guidance": "一句话说明",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Bold",
           "font_color": null,
           "bold": true,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            2.99,
+            0.77
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 14
         },
         {
           "slot_id": "s3_sh3_p0r0",
@@ -463,7 +630,13 @@
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 11
         },
         {
           "slot_id": "s3_sh26_p0r0",
@@ -480,7 +653,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         }
       ],
       "title_slot_id": "s3_sh5_p0r0",
@@ -509,13 +688,22 @@
             "paragraph": 0
           },
           "current_text": "本季度工作概述",
-          "max_chars": 11,
+          "max_chars": 27,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            26.84,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 23,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s4_sh20_p0r0",
@@ -526,13 +714,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。",
-          "max_chars": 165,
+          "max_chars": 446,
           "editable": true,
           "guidance": "正文段落，~78 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            13.68,
+            5.23
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 31,
+          "max_lines": 12,
+          "level": 14
         },
         {
           "slot_id": "s4_sh20_p1r0",
@@ -543,13 +740,22 @@
             "paragraph": 1
           },
           "current_text": "您的正文已经简明扼要，字字珠玑，但信息却错综复杂，需要用更多的文字来表述；但请您尽可能提炼思想的精髓，否则容易造成观者的阅读压力，适得其反。",
-          "max_chars": 147,
+          "max_chars": 446,
           "editable": true,
           "guidance": "正文段落，~70 字",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            13.68,
+            5.23
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 31,
+          "max_lines": 12,
+          "level": 14
         },
         {
           "slot_id": "s4_sh6_p0r0",
@@ -560,13 +766,22 @@
             "paragraph": 0
           },
           "current_text": "本季度工作概述",
-          "max_chars": 11,
+          "max_chars": 9,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            10.14,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 7
         }
       ],
       "title_slot_id": "s4_sh19_p0r0",
@@ -593,13 +808,22 @@
             "paragraph": 0
           },
           "current_text": "本季度工作概述",
-          "max_chars": 11,
+          "max_chars": 27,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            26.84,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 23,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s5_sh20_p0r0",
@@ -610,13 +834,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。",
-          "max_chars": 165,
+          "max_chars": 633,
           "editable": true,
           "guidance": "正文段落，~78 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.58,
+            7.12
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 33,
+          "max_lines": 16,
+          "level": 14
         },
         {
           "slot_id": "s5_sh20_p1r0",
@@ -627,13 +860,22 @@
             "paragraph": 1
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；",
-          "max_chars": 102,
+          "max_chars": 633,
           "editable": true,
           "guidance": "正文段落，~48 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.58,
+            7.12
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 33,
+          "max_lines": 16,
+          "level": 14
         },
         {
           "slot_id": "s5_sh20_p2r0",
@@ -644,13 +886,22 @@
             "paragraph": 2
           },
           "current_text": "您的正文已经简明扼要，字字珠玑，但信息却错综复杂，需要用更多的文字来表述；但请您尽可能提炼思想的精髓，否则容易造成观者的阅读压力，适得其反。",
-          "max_chars": 147,
+          "max_chars": 633,
           "editable": true,
           "guidance": "正文段落，~70 字",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.58,
+            7.12
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 33,
+          "max_lines": 16,
+          "level": 14
         },
         {
           "slot_id": "s5_sh29_p0r0",
@@ -668,7 +919,16 @@
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.12,
+            3.33
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 2,
+          "level": 6
         },
         {
           "slot_id": "s5_sh29_p1r0",
@@ -686,7 +946,16 @@
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            3.12,
+            3.33
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 2,
+          "max_lines": 2,
+          "level": 6
         },
         {
           "slot_id": "s5_sh181_p0r0",
@@ -697,13 +966,22 @@
             "paragraph": 0
           },
           "current_text": "本季度工作概述",
-          "max_chars": 11,
+          "max_chars": 9,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            10.14,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 7
         }
       ],
       "title_slot_id": "s5_sh29_p0r0",
@@ -731,13 +1009,22 @@
             "paragraph": 0
           },
           "current_text": "本季度工作概述",
-          "max_chars": 11,
+          "max_chars": 27,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            26.84,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 23,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s6_sh10_p0r0",
@@ -748,13 +1035,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；",
-          "max_chars": 102,
+          "max_chars": 216,
           "editable": true,
           "guidance": "正文段落，~48 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.08,
+            4.46
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 18,
+          "max_lines": 10,
+          "level": 14
         },
         {
           "slot_id": "s6_sh10_p1r0",
@@ -765,13 +1061,22 @@
             "paragraph": 1
           },
           "current_text": "根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。",
-          "max_chars": 64,
+          "max_chars": 216,
           "editable": true,
           "guidance": "正文段落，~30 字",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.08,
+            4.46
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 18,
+          "max_lines": 10,
+          "level": 14
         },
         {
           "slot_id": "s6_sh34_p0r0",
@@ -788,7 +1093,13 @@
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 11
         },
         {
           "slot_id": "s6_sh116_p0r0",
@@ -805,7 +1116,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         },
         {
           "slot_id": "s6_sh12_p0r0",
@@ -822,7 +1139,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s6_sh13_p0r0",
@@ -840,7 +1162,12 @@
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s6_sh31_p0r0",
@@ -857,7 +1184,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         },
         {
           "slot_id": "s6_sh32_p0r0",
@@ -874,7 +1207,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s6_sh33_p0r0",
@@ -892,7 +1230,12 @@
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s6_sh38_p0r0",
@@ -909,7 +1252,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         },
         {
           "slot_id": "s6_sh39_p0r0",
@@ -926,7 +1275,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s6_sh40_p0r0",
@@ -944,7 +1298,12 @@
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         }
       ],
       "preview_slot_in_2x2": "左下",
@@ -979,14 +1338,23 @@
             "paragraph": 0
           },
           "current_text": "重点工作介绍",
-          "max_chars": 10,
+          "max_chars": 8,
           "editable": true,
           "guidance": "页面主标题，建议≤ 6 个中文字",
           "font_size_pt": 54.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.91,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s7_sh18_p0r0",
@@ -997,14 +1365,22 @@
             "paragraph": 0
           },
           "current_text": "02",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 80.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            4.02,
+            3.0
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "s7_sh30_p0r0",
@@ -1015,14 +1391,23 @@
             "paragraph": 0
           },
           "current_text": "YOUR LOGO",
-          "max_chars": 19,
+          "max_chars": 7,
           "editable": true,
           "guidance": "一句话说明",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Bold",
           "font_color": null,
           "bold": true,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            2.99,
+            0.77
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 14
         },
         {
           "slot_id": "s7_sh22_p0r0",
@@ -1039,7 +1424,13 @@
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 11
         },
         {
           "slot_id": "s7_sh26_p0r0",
@@ -1056,7 +1447,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         }
       ],
       "title_slot_id": "s7_sh5_p0r0",
@@ -1085,13 +1482,22 @@
             "paragraph": 0
           },
           "current_text": "重点工作介绍",
-          "max_chars": 10,
+          "max_chars": 27,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            26.84,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 23,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s8_sh20_p0r0",
@@ -1102,13 +1508,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。",
-          "max_chars": 165,
+          "max_chars": 393,
           "editable": true,
           "guidance": "正文段落，~78 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            17.62,
+            3.69
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 41,
+          "max_lines": 8,
+          "level": 14
         },
         {
           "slot_id": "s8_sh20_p1r0",
@@ -1119,13 +1534,22 @@
             "paragraph": 1
           },
           "current_text": "您的正文已经简明扼要，字字珠玑，但信息却错综复杂，需要用更多的文字来表述；但请您尽可能提炼思想的精髓，否则容易造成观者的阅读压力，适得其反。",
-          "max_chars": 147,
+          "max_chars": 393,
           "editable": true,
           "guidance": "正文段落，~70 字",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            17.62,
+            3.69
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 41,
+          "max_lines": 8,
+          "level": 14
         },
         {
           "slot_id": "s8_sh10_p0r0",
@@ -1136,13 +1560,22 @@
             "paragraph": 0
           },
           "current_text": "此处添加",
-          "max_chars": 6,
+          "max_chars": 16,
           "editable": true,
           "guidance": "副标 / 段落小标，6-15 字",
           "font_size_pt": 28.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.0,
+            2.65
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 2,
+          "level": 8
         },
         {
           "slot_id": "s8_sh10_p1r0",
@@ -1153,13 +1586,22 @@
             "paragraph": 1
           },
           "current_text": "您的标题文本",
-          "max_chars": 10,
+          "max_chars": 16,
           "editable": true,
           "guidance": "副标 / 段落小标，6-15 字；占位文本必改",
           "font_size_pt": 28.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.0,
+            2.65
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 2,
+          "level": 8
         },
         {
           "slot_id": "s8_sh100_p0r0",
@@ -1170,13 +1612,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处添加小标题内容",
-          "max_chars": 21,
+          "max_chars": 36,
           "editable": true,
           "guidance": "一句话说明；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.05,
+            1.15
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 15,
+          "max_lines": 2,
+          "level": 13
         },
         {
           "slot_id": "s8_sh42_p0r0",
@@ -1190,10 +1641,19 @@
           "max_chars": 9,
           "editable": true,
           "guidance": "短词或序号；占位文本必改",
-          "font_size_pt": null,
+          "font_size_pt": 20.5,
           "font_name": "思源黑体 CN Bold",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            6.39,
+            1.02
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 10
         },
         {
           "slot_id": "s8_sh43_p0r0",
@@ -1207,10 +1667,19 @@
           "max_chars": 9,
           "editable": true,
           "guidance": "短词或序号；占位文本必改",
-          "font_size_pt": null,
+          "font_size_pt": 20.5,
           "font_name": "思源黑体 CN Bold",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            6.39,
+            1.02
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 10
         }
       ],
       "title_slot_id": "s8_sh19_p0r0",
@@ -1240,13 +1709,22 @@
             "paragraph": 0
           },
           "current_text": "重点工作介绍",
-          "max_chars": 10,
+          "max_chars": 27,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            26.84,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 23,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s9_sh43_p0r0",
@@ -1257,14 +1735,23 @@
             "paragraph": 0
           },
           "current_text": "01",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            1.53,
+            1.11
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 11
         },
         {
           "slot_id": "s9_sh44_p0r0",
@@ -1275,14 +1762,23 @@
             "paragraph": 0
           },
           "current_text": "03",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            1.53,
+            1.11
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 11
         },
         {
           "slot_id": "s9_sh45_p0r0",
@@ -1293,14 +1789,23 @@
             "paragraph": 0
           },
           "current_text": "02",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            1.53,
+            1.11
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 11
         },
         {
           "slot_id": "s9_sh47_p0r0",
@@ -1311,13 +1816,22 @@
             "paragraph": 0
           },
           "current_text": "Presentation ",
-          "max_chars": 28,
+          "max_chars": 248,
           "editable": true,
           "guidance": "一句话说明",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            4.14,
+            9.84
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 23,
+          "level": 14
         },
         {
           "slot_id": "s9_sh47_p1r0",
@@ -1328,13 +1842,22 @@
             "paragraph": 1
           },
           "current_text": "of ",
-          "max_chars": 8,
+          "max_chars": 248,
           "editable": false,
           "guidance": "小字辅助说明",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            4.14,
+            9.84
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 23,
+          "level": 14
         },
         {
           "slot_id": "s9_sh47_p2r0",
@@ -1345,13 +1868,22 @@
             "paragraph": 2
           },
           "current_text": "key ",
-          "max_chars": 8,
+          "max_chars": 248,
           "editable": true,
           "guidance": "小字辅助说明",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            4.14,
+            9.84
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 23,
+          "level": 14
         },
         {
           "slot_id": "s9_sh47_p3r0",
@@ -1362,13 +1894,22 @@
             "paragraph": 3
           },
           "current_text": "work",
-          "max_chars": 9,
+          "max_chars": 248,
           "editable": true,
           "guidance": "小字辅助说明",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            4.14,
+            9.84
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 23,
+          "level": 14
         },
         {
           "slot_id": "s9_sh41_p0r0",
@@ -1385,7 +1926,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         },
         {
           "slot_id": "s9_sh48_p0r0",
@@ -1402,7 +1949,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s9_sh51_p0r0",
@@ -1419,7 +1971,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         },
         {
           "slot_id": "s9_sh52_p0r0",
@@ -1436,7 +1994,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s9_sh54_p0r0",
@@ -1453,7 +2016,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         },
         {
           "slot_id": "s9_sh55_p0r0",
@@ -1470,7 +2039,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         }
       ],
       "title_slot_id": "s9_sh19_p0r0",
@@ -1504,13 +2078,22 @@
             "paragraph": 0
           },
           "current_text": "重点工作介绍",
-          "max_chars": 10,
+          "max_chars": 27,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            26.84,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 23,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s10_sh20_p0r0",
@@ -1527,7 +2110,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         },
         {
           "slot_id": "s10_sh26_p0r0",
@@ -1544,7 +2133,13 @@
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 11
         },
         {
           "slot_id": "s10_sh10_p0r0",
@@ -1561,7 +2156,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         },
         {
           "slot_id": "s10_sh11_p0r0",
@@ -1578,7 +2179,13 @@
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 11
         },
         {
           "slot_id": "s10_sh51_p0r0",
@@ -1589,13 +2196,22 @@
             "paragraph": 0
           },
           "current_text": "关键字",
-          "max_chars": 6,
+          "max_chars": 1,
           "editable": true,
           "guidance": "短词或序号",
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            1.28,
+            2.64
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "s10_sh53_p0r0",
@@ -1606,13 +2222,22 @@
             "paragraph": 0
           },
           "current_text": "关键字",
-          "max_chars": 6,
+          "max_chars": 1,
           "editable": true,
           "guidance": "短词或序号",
-          "font_size_pt": null,
+          "font_size_pt": 40.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            1.28,
+            2.64
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 5
         },
         {
           "slot_id": "s10_sh120_p0r0",
@@ -1623,14 +2248,22 @@
             "paragraph": 0
           },
           "current_text": "01",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 44.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            2.86,
+            3.0
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "s10_sh67_p0r0",
@@ -1641,14 +2274,22 @@
             "paragraph": 0
           },
           "current_text": "02",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 44.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            2.86,
+            3.0
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         }
       ],
       "title_slot_id": "s10_sh19_p0r0",
@@ -1678,14 +2319,23 @@
             "paragraph": 0
           },
           "current_text": "工作中不足之处",
-          "max_chars": 11,
+          "max_chars": 8,
           "editable": true,
           "guidance": "页面主标题，建议≤ 7 个中文字",
           "font_size_pt": 54.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.91,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s11_sh18_p0r0",
@@ -1696,14 +2346,22 @@
             "paragraph": 0
           },
           "current_text": "03",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 80.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            4.02,
+            3.0
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "s11_sh30_p0r0",
@@ -1714,14 +2372,23 @@
             "paragraph": 0
           },
           "current_text": "YOUR LOGO",
-          "max_chars": 19,
+          "max_chars": 7,
           "editable": true,
           "guidance": "一句话说明",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Bold",
           "font_color": null,
           "bold": true,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            2.99,
+            0.77
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 14
         },
         {
           "slot_id": "s11_sh19_p0r0",
@@ -1738,7 +2405,13 @@
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 11
         },
         {
           "slot_id": "s11_sh26_p0r0",
@@ -1755,7 +2428,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         }
       ],
       "title_slot_id": "s11_sh5_p0r0",
@@ -1784,13 +2463,22 @@
             "paragraph": 0
           },
           "current_text": "工作中不足之处",
-          "max_chars": 11,
+          "max_chars": 27,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            26.84,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 23,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s12_sh34_p0r0",
@@ -1801,13 +2489,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 101,
+          "max_chars": 108,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.24,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 18,
+          "max_lines": 5,
+          "level": 14
         },
         {
           "slot_id": "s12_sh40_p0r0",
@@ -1818,13 +2515,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 101,
+          "max_chars": 108,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.24,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 18,
+          "max_lines": 5,
+          "level": 14
         },
         {
           "slot_id": "s12_sh44_p0r0",
@@ -1835,13 +2541,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 101,
+          "max_chars": 108,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.24,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 18,
+          "max_lines": 5,
+          "level": 14
         },
         {
           "slot_id": "s12_sh72_p0r0",
@@ -1852,13 +2567,22 @@
             "paragraph": 0
           },
           "current_text": "添加小标题",
-          "max_chars": 9,
+          "max_chars": 8,
           "editable": true,
           "guidance": "短词或序号；占位文本必改",
-          "font_size_pt": null,
+          "font_size_pt": 20.5,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.58,
+            1.02
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 10
         },
         {
           "slot_id": "s12_sh41_p0r0",
@@ -1869,13 +2593,22 @@
             "paragraph": 0
           },
           "current_text": "添加小标题",
-          "max_chars": 9,
+          "max_chars": 8,
           "editable": true,
           "guidance": "短词或序号；占位文本必改",
-          "font_size_pt": null,
+          "font_size_pt": 20.5,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.58,
+            1.02
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 10
         },
         {
           "slot_id": "s12_sh45_p0r0",
@@ -1886,13 +2619,22 @@
             "paragraph": 0
           },
           "current_text": "添加小标题",
-          "max_chars": 9,
+          "max_chars": 8,
           "editable": true,
           "guidance": "短词或序号；占位文本必改",
-          "font_size_pt": null,
+          "font_size_pt": 20.5,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.58,
+            1.02
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 10
         },
         {
           "slot_id": "s12_sh63_p0r0",
@@ -1903,13 +2645,22 @@
             "paragraph": 0
           },
           "current_text": "添加关键字",
-          "max_chars": 9,
+          "max_chars": 6,
           "editable": true,
           "guidance": "短词或序号",
-          "font_size_pt": null,
+          "font_size_pt": 20.5,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.08,
+            1.02
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 1,
+          "level": 10
         },
         {
           "slot_id": "s12_sh66_p0r0",
@@ -1920,13 +2671,22 @@
             "paragraph": 0
           },
           "current_text": "添加关键字",
-          "max_chars": 9,
+          "max_chars": 6,
           "editable": true,
           "guidance": "短词或序号",
-          "font_size_pt": null,
+          "font_size_pt": 20.5,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.08,
+            1.02
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 1,
+          "level": 10
         },
         {
           "slot_id": "s12_sh67_p0r0",
@@ -1937,13 +2697,22 @@
             "paragraph": 0
           },
           "current_text": "添加关键字",
-          "max_chars": 9,
+          "max_chars": 6,
           "editable": true,
           "guidance": "短词或序号",
-          "font_size_pt": null,
+          "font_size_pt": 20.5,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.08,
+            1.02
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 1,
+          "level": 10
         }
       ],
       "title_slot_id": "s12_sh19_p0r0",
@@ -1971,13 +2740,22 @@
             "paragraph": 0
           },
           "current_text": "工作中不足之处",
-          "max_chars": 11,
+          "max_chars": 27,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            26.84,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 23,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s13_sh43_p0r0",
@@ -1994,7 +2772,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         },
         {
           "slot_id": "s13_sh48_p0r0",
@@ -2011,7 +2795,13 @@
           "font_size_pt": 16.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 12
         },
         {
           "slot_id": "s13_sh47_p0r0",
@@ -2028,7 +2818,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         },
         {
           "slot_id": "s13_sh49_p0r0",
@@ -2045,7 +2841,13 @@
           "font_size_pt": 16.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 12
         },
         {
           "slot_id": "s13_sh51_p0r0",
@@ -2062,7 +2864,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         },
         {
           "slot_id": "s13_sh52_p0r0",
@@ -2079,7 +2887,13 @@
           "font_size_pt": 16.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 12
         }
       ],
       "title_slot_id": "s13_sh19_p0r0",
@@ -2107,13 +2921,22 @@
             "paragraph": 0
           },
           "current_text": "工作中不足之处",
-          "max_chars": 11,
+          "max_chars": 27,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            26.84,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 23,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s14_sh73_p0r0",
@@ -2124,13 +2947,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 101,
+          "max_chars": 114,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.62,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 5,
+          "level": 14
         },
         {
           "slot_id": "s14_sh77_p0r0",
@@ -2147,7 +2979,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s14_sh106_p0r0",
@@ -2165,7 +3002,12 @@
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s14_sh110_p0r0",
@@ -2176,13 +3018,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 101,
+          "max_chars": 114,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.62,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 5,
+          "level": 14
         },
         {
           "slot_id": "s14_sh113_p0r0",
@@ -2199,7 +3050,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s14_sh114_p0r0",
@@ -2217,7 +3073,12 @@
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s14_sh116_p0r0",
@@ -2228,13 +3089,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 101,
+          "max_chars": 114,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.62,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 5,
+          "level": 14
         },
         {
           "slot_id": "s14_sh119_p0r0",
@@ -2251,7 +3121,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s14_sh120_p0r0",
@@ -2269,7 +3144,12 @@
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s14_sh124_p0r0",
@@ -2280,13 +3160,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 101,
+          "max_chars": 114,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.62,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 5,
+          "level": 14
         },
         {
           "slot_id": "s14_sh127_p0r0",
@@ -2303,7 +3192,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s14_sh128_p0r0",
@@ -2321,7 +3215,12 @@
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s14_sh130_p0r0",
@@ -2332,13 +3231,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 101,
+          "max_chars": 114,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.62,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 5,
+          "level": 14
         },
         {
           "slot_id": "s14_sh133_p0r0",
@@ -2355,7 +3263,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s14_sh134_p0r0",
@@ -2373,7 +3286,12 @@
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s14_sh136_p0r0",
@@ -2384,13 +3302,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 101,
+          "max_chars": 114,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.62,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 19,
+          "max_lines": 5,
+          "level": 14
         },
         {
           "slot_id": "s14_sh139_p0r0",
@@ -2407,7 +3334,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s14_sh140_p0r0",
@@ -2425,7 +3357,12 @@
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            0.0,
+            0.0
+          ],
+          "capacity_unknown": true
         }
       ],
       "title_slot_id": "s14_sh19_p0r0",
@@ -2463,14 +3400,23 @@
             "paragraph": 0
           },
           "current_text": "后期工作规划",
-          "max_chars": 10,
+          "max_chars": 8,
           "editable": true,
           "guidance": "页面主标题，建议≤ 6 个中文字",
           "font_size_pt": 54.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            14.91,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 3
         },
         {
           "slot_id": "s15_sh18_p0r0",
@@ -2481,14 +3427,22 @@
             "paragraph": 0
           },
           "current_text": "04",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 80.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            4.02,
+            3.0
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1
         },
         {
           "slot_id": "s15_sh30_p0r0",
@@ -2499,14 +3453,23 @@
             "paragraph": 0
           },
           "current_text": "YOUR LOGO",
-          "max_chars": 19,
+          "max_chars": 7,
           "editable": true,
           "guidance": "一句话说明",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Bold",
           "font_color": null,
           "bold": true,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            2.99,
+            0.77
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 14
         },
         {
           "slot_id": "s15_sh19_p0r0",
@@ -2523,7 +3486,13 @@
           "font_size_pt": 20.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 11
         },
         {
           "slot_id": "s15_sh26_p0r0",
@@ -2540,7 +3509,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         }
       ],
       "title_slot_id": "s15_sh5_p0r0",
@@ -2569,13 +3544,22 @@
             "paragraph": 0
           },
           "current_text": "后期工作规划",
-          "max_chars": 10,
+          "max_chars": 27,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            26.84,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 23,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s16_sh32_p0r0",
@@ -2586,13 +3570,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。",
-          "max_chars": 165,
+          "max_chars": 417,
           "editable": true,
           "guidance": "正文段落，~78 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            12.78,
+            5.23
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 29,
+          "max_lines": 12,
+          "level": 14
         },
         {
           "slot_id": "s16_sh32_p1r0",
@@ -2603,13 +3596,22 @@
             "paragraph": 1
           },
           "current_text": "您的正文已经简明扼要，字字珠玑，但信息却错综复杂，需要用更多的文字来表述；但请您尽可能提炼思想的精髓，否则容易造成观者的阅读压力，适得其反。",
-          "max_chars": 147,
+          "max_chars": 417,
           "editable": true,
           "guidance": "正文段落，~70 字",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            12.78,
+            5.23
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 29,
+          "max_lines": 12,
+          "level": 14
         },
         {
           "slot_id": "s16_sh34_p0r0",
@@ -2620,13 +3622,22 @@
             "paragraph": 0
           },
           "current_text": "后期工作规划",
-          "max_chars": 10,
+          "max_chars": 9,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            10.14,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s16_sh36_p0r0",
@@ -2638,14 +3649,23 @@
             "run": 0
           },
           "current_text": "6800",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            4.85,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s16_sh36_p0r1",
@@ -2657,14 +3677,23 @@
             "run": 1
           },
           "current_text": "万",
-          "max_chars": 4,
+          "max_chars": 19,
           "editable": true,
           "guidance": "小标题，8 字内",
           "font_size_pt": 16.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.85,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 2,
+          "level": 12
         },
         {
           "slot_id": "s16_sh53_p0r0",
@@ -2676,14 +3705,23 @@
             "run": 0
           },
           "current_text": "200",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": false,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            4.85,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s16_sh53_p0r1",
@@ -2695,14 +3733,23 @@
             "run": 1
           },
           "current_text": "%",
-          "max_chars": 8,
+          "max_chars": 19,
           "editable": false,
           "guidance": "装饰符号，保持不变",
           "font_size_pt": 16.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            4.85,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 2,
+          "level": 12
         },
         {
           "slot_id": "s16_sh59_p0r0",
@@ -2714,14 +3761,23 @@
             "run": 0
           },
           "current_text": "560",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": false,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            4.85,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s16_sh59_p0r1",
@@ -2733,14 +3789,23 @@
             "run": 1
           },
           "current_text": "人",
-          "max_chars": 4,
+          "max_chars": 19,
           "editable": true,
           "guidance": "小标题，8 字内",
           "font_size_pt": 16.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.85,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 2,
+          "level": 12
         },
         {
           "slot_id": "s16_sh62_p0r0",
@@ -2752,14 +3817,23 @@
             "run": 0
           },
           "current_text": "750",
-          "max_chars": 8,
+          "max_chars": 4,
           "editable": false,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            4.85,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 4,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s16_sh62_p0r1",
@@ -2771,14 +3845,23 @@
             "run": 1
           },
           "current_text": "次",
-          "max_chars": 4,
+          "max_chars": 19,
           "editable": true,
           "guidance": "小标题，8 字内",
           "font_size_pt": 16.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.85,
+            1.62
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 2,
+          "level": 12
         },
         {
           "slot_id": "s16_sh63_p0r0",
@@ -2789,13 +3872,22 @@
             "paragraph": 0
           },
           "current_text": "添加副标题",
-          "max_chars": 11,
+          "max_chars": 10,
           "editable": true,
           "guidance": "小字辅助说明；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.21,
+            0.77
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 14
         },
         {
           "slot_id": "s16_sh66_p0r0",
@@ -2806,13 +3898,22 @@
             "paragraph": 0
           },
           "current_text": "添加副标题",
-          "max_chars": 11,
+          "max_chars": 10,
           "editable": true,
           "guidance": "小字辅助说明；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.21,
+            0.77
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 14
         },
         {
           "slot_id": "s16_sh67_p0r0",
@@ -2823,13 +3924,22 @@
             "paragraph": 0
           },
           "current_text": "添加副标题",
-          "max_chars": 11,
+          "max_chars": 10,
           "editable": true,
           "guidance": "小字辅助说明；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.21,
+            0.77
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 14
         },
         {
           "slot_id": "s16_sh70_p0r0",
@@ -2840,13 +3950,22 @@
             "paragraph": 0
           },
           "current_text": "添加副标题",
-          "max_chars": 11,
+          "max_chars": 10,
           "editable": true,
           "guidance": "小字辅助说明；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            4.21,
+            0.77
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 9,
+          "max_lines": 1,
+          "level": 14
         }
       ],
       "title_slot_id": "s16_sh19_p0r0",
@@ -2878,13 +3997,22 @@
             "paragraph": 0
           },
           "current_text": "后期工作规划",
-          "max_chars": 10,
+          "max_chars": 27,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            26.84,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 23,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s17_sh68_p0r0",
@@ -2895,13 +4023,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，请尽量言简意赅的阐述观点",
-          "max_chars": 71,
+          "max_chars": 100,
           "editable": true,
           "guidance": "正文段落，~33 字；占位文本必改",
           "font_size_pt": 10.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.66,
+            1.54
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 21,
+          "max_lines": 4,
+          "level": 15
         },
         {
           "slot_id": "s17_sh6_p0r0",
@@ -2912,13 +4049,22 @@
             "paragraph": 0
           },
           "current_text": "添加小标题",
-          "max_chars": 9,
+          "max_chars": 12,
           "editable": true,
           "guidance": "小字辅助说明；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.41,
+            0.85
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 1,
+          "level": 13
         },
         {
           "slot_id": "s17_sh16_p0r0",
@@ -2929,13 +4075,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，请尽量言简意赅的阐述观点",
-          "max_chars": 71,
+          "max_chars": 100,
           "editable": true,
           "guidance": "正文段落，~33 字；占位文本必改",
           "font_size_pt": 10.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.66,
+            1.54
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 21,
+          "max_lines": 4,
+          "level": 15
         },
         {
           "slot_id": "s17_sh25_p0r0",
@@ -2946,13 +4101,22 @@
             "paragraph": 0
           },
           "current_text": "添加小标题",
-          "max_chars": 9,
+          "max_chars": 12,
           "editable": true,
           "guidance": "小字辅助说明；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.41,
+            0.85
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 1,
+          "level": 13
         },
         {
           "slot_id": "s17_sh29_p0r0",
@@ -2963,13 +4127,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，请尽量言简意赅的阐述观点",
-          "max_chars": 71,
+          "max_chars": 100,
           "editable": true,
           "guidance": "正文段落，~33 字；占位文本必改",
           "font_size_pt": 10.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.66,
+            1.54
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 21,
+          "max_lines": 4,
+          "level": 15
         },
         {
           "slot_id": "s17_sh37_p0r0",
@@ -2980,13 +4153,22 @@
             "paragraph": 0
           },
           "current_text": "添加小标题",
-          "max_chars": 9,
+          "max_chars": 12,
           "editable": true,
           "guidance": "小字辅助说明；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.41,
+            0.85
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 1,
+          "level": 13
         },
         {
           "slot_id": "s17_sh54_p0r0",
@@ -2997,13 +4179,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，请尽量言简意赅的阐述观点",
-          "max_chars": 71,
+          "max_chars": 100,
           "editable": true,
           "guidance": "正文段落，~33 字；占位文本必改",
           "font_size_pt": 10.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            7.66,
+            1.54
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 21,
+          "max_lines": 4,
+          "level": 15
         },
         {
           "slot_id": "s17_sh55_p0r0",
@@ -3014,13 +4205,22 @@
             "paragraph": 0
           },
           "current_text": "添加小标题",
-          "max_chars": 9,
+          "max_chars": 12,
           "editable": true,
           "guidance": "小字辅助说明；占位文本必改",
           "font_size_pt": 14.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            5.41,
+            0.85
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 10,
+          "max_lines": 1,
+          "level": 13
         },
         {
           "slot_id": "s17_sh61_p0r0",
@@ -3031,13 +4231,22 @@
             "paragraph": 0
           },
           "current_text": "工作规划",
-          "max_chars": 6,
+          "max_chars": 16,
           "editable": true,
           "guidance": "副标 / 段落小标，6-15 字",
           "font_size_pt": 24.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            6.72,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 7,
+          "max_lines": 2,
+          "level": 9
         },
         {
           "slot_id": "s17_sh64_p0r0",
@@ -3048,13 +4257,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点",
-          "max_chars": 101,
+          "max_chars": 144,
           "editable": true,
           "guidance": "正文段落，~47 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            8.84,
+            2.97
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 20,
+          "max_lines": 6,
+          "level": 14
         },
         {
           "slot_id": "s17_sh75_p0r0",
@@ -3065,13 +4283,22 @@
             "paragraph": 0
           },
           "current_text": "98000+",
-          "max_chars": 10,
+          "max_chars": 3,
           "editable": true,
           "guidance": "装饰大字数据 / 章节号",
           "font_size_pt": 48.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            6.72,
+            2.36
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 3,
+          "max_lines": 1,
+          "level": 4
         },
         {
           "slot_id": "s17_sh77_p0r0",
@@ -3082,13 +4309,22 @@
             "paragraph": 0
           },
           "current_text": "Work plan",
-          "max_chars": 13,
+          "max_chars": 7,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 40.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            9.57,
+            2.36
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 6,
+          "max_lines": 1,
+          "level": 5
         }
       ],
       "title_slot_id": "s17_sh75_p0r0",
@@ -3119,13 +4355,22 @@
             "paragraph": 0
           },
           "current_text": "后期工作规划",
-          "max_chars": 10,
+          "max_chars": 27,
           "editable": true,
           "guidance": "页面标题，建议短句",
           "font_size_pt": 32.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            26.84,
+            1.85
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 23,
+          "max_lines": 1,
+          "level": 7
         },
         {
           "slot_id": "s18_sh9_p0r0",
@@ -3136,13 +4381,22 @@
             "paragraph": 0
           },
           "current_text": "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。",
-          "max_chars": 165,
+          "max_chars": 186,
           "editable": true,
           "guidance": "正文段落，~78 字；占位文本必改",
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            13.4,
+            2.56
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 31,
+          "max_lines": 5,
+          "level": 14
         },
         {
           "slot_id": "s18_sh34_p0r0",
@@ -3153,13 +4407,22 @@
             "paragraph": 0
           },
           "current_text": "后期工作规划",
-          "max_chars": 10,
+          "max_chars": 12,
           "editable": true,
           "guidance": "副标 / 段落小标，6-15 字",
           "font_size_pt": 28.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            10.14,
+            1.6
+          ],
+          "wrap": true,
+          "autofit": true,
+          "chars_per_line": 10,
+          "max_lines": 1,
+          "level": 8
         },
         {
           "slot_id": "s18_sh68_p0r0",
@@ -3176,7 +4439,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         },
         {
           "slot_id": "s18_sh72_p0r0",
@@ -3193,7 +4462,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s18_sh32_p0r0",
@@ -3204,14 +4478,23 @@
             "paragraph": 0
           },
           "current_text": "01",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 66.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            3.52,
+            3.0
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 1
         },
         {
           "slot_id": "s18_sh36_p0r0",
@@ -3228,7 +4511,13 @@
           "font_size_pt": 12.0,
           "font_name": "思源黑体 CN Medium",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.02,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 14
         },
         {
           "slot_id": "s18_sh37_p0r0",
@@ -3245,7 +4534,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s18_sh38_p0r0",
@@ -3256,14 +4550,23 @@
             "paragraph": 0
           },
           "current_text": "02",
-          "max_chars": 8,
+          "max_chars": 1,
           "editable": false,
           "guidance": "装饰序号，重排章节才改",
           "font_size_pt": 66.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": "435BE1",
           "bold": true,
-          "language": "number"
+          "language": "number",
+          "box_cm": [
+            3.52,
+            3.0
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 1,
+          "max_lines": 1,
+          "level": 1
         },
         {
           "slot_id": "s18_sh58_p0r0",
@@ -3280,7 +4583,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s18_sh59_p0r0",
@@ -3297,7 +4605,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         },
         {
           "slot_id": "s18_sh60_p0r0",
@@ -3314,7 +4627,12 @@
           "font_size_pt": null,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true
         }
       ],
       "title_slot_id": "s18_sh19_p0r0",
@@ -3353,7 +4671,16 @@
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "zh"
+          "language": "zh",
+          "box_cm": [
+            11.94,
+            3.07
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 5,
+          "max_lines": 1,
+          "level": 1
         },
         {
           "slot_id": "s19_sh58_p0r0",
@@ -3364,14 +4691,23 @@
             "paragraph": 0
           },
           "current_text": "THNAK YOU",
-          "max_chars": 13,
+          "max_chars": 8,
           "editable": true,
           "guidance": "英文大字标题（≤ 4 个单词）",
           "font_size_pt": 60.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            16.76,
+            2.82
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 7,
+          "max_lines": 1,
+          "level": 2
         },
         {
           "slot_id": "s19_sh30_p0r0",
@@ -3389,7 +4725,13 @@
           "font_name": "思源黑体 CN Bold",
           "font_color": null,
           "bold": true,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            0.01,
+            0.0
+          ],
+          "capacity_unknown": true,
+          "level": 13
         },
         {
           "slot_id": "s19_sh31_p0r0",
@@ -3400,14 +4742,23 @@
             "paragraph": 0
           },
           "current_text": "20XX/01/01",
-          "max_chars": 18,
+          "max_chars": 9,
           "editable": true,
           "guidance": "一句话说明",
           "font_size_pt": 14.0,
           "font_name": "思源黑体 CN Heavy",
           "font_color": null,
           "bold": true,
-          "language": "en"
+          "language": "en",
+          "box_cm": [
+            4.36,
+            0.89
+          ],
+          "wrap": true,
+          "autofit": false,
+          "chars_per_line": 8,
+          "max_lines": 1,
+          "level": 13
         }
       ],
       "preview_slot_in_2x2": "右下",
@@ -3418,6 +4769,83 @@
       ],
       "decorative_slot_ids": [],
       "text_density": "low"
+    }
+  ],
+  "type_scale": [
+    {
+      "level": 1,
+      "size_pt": 66.0,
+      "slot_count": 1
+    },
+    {
+      "level": 2,
+      "size_pt": 60.0,
+      "slot_count": 1
+    },
+    {
+      "level": 3,
+      "size_pt": 54.0,
+      "slot_count": 6
+    },
+    {
+      "level": 4,
+      "size_pt": 48.0,
+      "slot_count": 2
+    },
+    {
+      "level": 5,
+      "size_pt": 40.0,
+      "slot_count": 3
+    },
+    {
+      "level": 6,
+      "size_pt": 36.0,
+      "slot_count": 2
+    },
+    {
+      "level": 7,
+      "size_pt": 32.0,
+      "slot_count": 16
+    },
+    {
+      "level": 8,
+      "size_pt": 28.0,
+      "slot_count": 3
+    },
+    {
+      "level": 9,
+      "size_pt": 24.0,
+      "slot_count": 2
+    },
+    {
+      "level": 10,
+      "size_pt": 20.5,
+      "slot_count": 8
+    },
+    {
+      "level": 11,
+      "size_pt": 20.0,
+      "slot_count": 5
+    },
+    {
+      "level": 12,
+      "size_pt": 16.0,
+      "slot_count": 3
+    },
+    {
+      "level": 13,
+      "size_pt": 14.0,
+      "slot_count": 8
+    },
+    {
+      "level": 14,
+      "size_pt": 12.0,
+      "slot_count": 33
+    },
+    {
+      "level": 15,
+      "size_pt": 10.0,
+      "slot_count": 4
     }
   ]
 }

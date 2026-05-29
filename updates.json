@@ -1,9 +1,46 @@
 {
   "$schema": "ppt-skill-updates/v1",
-  "latest_version": "1.0.6",
+  "latest_version": "1.0.7",
   "update_source": "git+https://github.com/GordenSun/GordenPPTSkill.git#main",
   "_update_source_help": "Set update_source to a URL prefix (e.g. https://example.com/ppt-skill/v1/) that hosts the same updates.json + the per-file mirror, OR to a git remote+branch in the form 'git+https://...repo.git#main'. When unset, check_update.py reports 'Update source unset' and exits cleanly.",
   "history": [
+    {
+      "version": "1.0.7",
+      "released_at": "2026-05-29",
+      "summary": "Geometry-accurate text capacity (chars_per_line/max_lines/max_chars + type_scale/level) for all templates, plus a build-time overflow lint; enforce same-level title size consistency by shortening text, never shrinking fonts.",
+      "added": [
+        "scripts/compute_capacity.py"
+      ],
+      "modified": [
+        "VERSION",
+        "CHANGELOG.md",
+        "updates.json",
+        "manifest.json",
+        "SKILL.md",
+        "references/workflow.md",
+        "scripts/build_pptx.py",
+        "templates/architecture-deck/detail.json",
+        "templates/competition-speech/detail.json",
+        "templates/cute-orange-class/detail.json",
+        "templates/data-viz-deck/detail.json",
+        "templates/geometric-summary/detail.json",
+        "templates/mckinsey-style/detail.json",
+        "templates/minimal-business-summary/detail.json",
+        "templates/operations-deck/detail.json",
+        "templates/premium-corp/detail.json",
+        "templates/quarterly-illust/detail.json",
+        "templates/red-patriot-general/detail.json",
+        "templates/red-patriot-youth/detail.json",
+        "templates/report-massive-charts/detail.json",
+        "templates/report-massive-models/detail.json",
+        "templates/report-massive-reports/detail.json",
+        "templates/report-savior/detail.json",
+        "templates/thesis-formula/detail.json",
+        "templates/thesis-novice/detail.json",
+        "templates/top-thesis/detail.json"
+      ],
+      "removed": []
+    },
     {
       "version": "1.0.6",
       "released_at": "2026-05-29",

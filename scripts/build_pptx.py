@@ -41,6 +41,7 @@ from __future__ import annotations
 import argparse
 import copy
 import json
+import math
 import sys
 from pathlib import Path
 
@@ -55,7 +56,12 @@ SLIDE_R_NS = "{http://schemas.openxmlformats.org/officeDocument/2006/relationshi
 # Slot resolution via detail.json
 # ------------------------------------------------------------------
 def load_slot_index(detail_path: Path | None) -> dict:
-    """Return {(slide_number, slot_id): address_dict}."""
+    """Return {(slide_number, slot_id): slot_dict}.
+
+    slot_dict includes address + capacity metadata (max_chars, chars_per_line,
+    max_lines, wrap, autofit, font_size_pt, level, role) when present so the
+    overflow lint can use them.
+    """
     if detail_path is None or not detail_path.exists():
         return {}
     detail = json.loads(detail_path.read_text(encoding="utf-8"))
@@ -63,11 +69,54 @@ def load_slot_index(detail_path: Path | None) -> dict:
     for page in detail.get("pages", []):
         slide_number = page["slide_number"]
         for slot in page.get("text_slots", []):
-            index[(slide_number, slot["slot_id"])] = slot["address"]
-            index[(slide_number, slot["slot_id"])].setdefault(
-                "expected_text", slot.get("current_text")
-            )
+            slot.setdefault("expected_text", slot.get("current_text"))
+            index[(slide_number, slot["slot_id"])] = slot
     return index
+
+
+# ------------------------------------------------------------------
+# Overflow lint (text-fits-the-box check)
+# ------------------------------------------------------------------
+def _visual_width(s: str) -> float:
+    w = 0.0
+    for c in s:
+        if "\u4e00" <= c <= "\u9fff" or "\u3000" <= c <= "\u303f" or "\uff00" <= c <= "\uffef":
+            w += 1.0
+        elif c == " ":
+            w += 0.35
+        elif c.isascii():
+            w += 0.5
+        else:
+            w += 0.8
+    return w
+
+
+def check_overflow(new_text: str, meta: dict) -> tuple[bool, str]:
+    """Return (fits, message). Uses chars_per_line / max_lines from detail.json.
+
+    'fits' is True when the text is expected to stay within the box. Boxes with
+    autofit (PowerPoint shrink-to-fit) are always treated as fitting (soft).
+    """
+    if meta.get("capacity_unknown"):
+        return True, ""  # geometry unreliable for this box
+    cpl = meta.get("chars_per_line")
+    max_lines = meta.get("max_lines")
+    cap = meta.get("max_chars")   # already includes the calibration tolerance
+    if not cpl or not max_lines or not cap:
+        return True, ""  # no capacity data → can't lint
+    total_vw = _visual_width(new_text.replace("\n", ""))
+    # primary test: visual width vs the (tolerance-adjusted) capacity budget
+    if total_vw <= cap:
+        return True, ""
+    # estimate needed lines for a helpful message
+    needed = sum(max(1, math.ceil(_visual_width(seg) / cpl))
+                 for seg in (new_text.split("\n") or [new_text]))
+    sz = meta.get("font_size_pt")
+    msg = (f"视觉宽度 {total_vw:.0f} > 容量 {cap} "
+           f"(约需 {needed} 行 / 可容 {max_lines} 行, {sz}pt, 每行≈{cpl}字)")
+    if meta.get("autofit"):
+        return True, "AUTOFIT " + msg + " — PowerPoint 会自动缩字"
+    return False, msg
 
 
 # ------------------------------------------------------------------
@@ -169,6 +218,7 @@ def run(args) -> int:
     planned: list[dict] = []
     for e in raw_edits:
         slide_num = e["slide"]
+        meta = None
         if "address" in e:
             addr = dict(e["address"])
             expected = e.get("expected_text") or addr.get("expected_text")
@@ -182,13 +232,15 @@ def run(args) -> int:
                 print(f"ERROR: slot_id {slot_id!r} not found for slide {slide_num} in detail.json",
                       file=sys.stderr)
                 return 2
-            addr = dict(slot_index[key])
-            expected = e.get("expected_text") or addr.get("expected_text")
+            meta = slot_index[key]
+            addr = dict(meta["address"])
+            expected = e.get("expected_text") or meta.get("expected_text")
         planned.append({
             "slide": slide_num,
             "address": addr,
             "expected": expected,
             "new_text": e["new_text"],
+            "meta": meta,
             "raw": e,
         })
 
@@ -198,6 +250,7 @@ def run(args) -> int:
         return 0
 
     # Apply edits BEFORE pruning so slide indices match the template
+    overflow_issues: list[str] = []
     for p in planned:
         slide = prs.slides[p["slide"] - 1]
         shape_id = p["address"].get("shape_id")
@@ -217,9 +270,33 @@ def run(args) -> int:
         if not ok and args.strict:
             return 4
 
+        # Overflow lint (only when slot capacity metadata is available)
+        if not args.no_lint and p["meta"]:
+            fits, omsg = check_overflow(p["new_text"], p["meta"])
+            if omsg and not fits:
+                slot_id = p["meta"].get("slot_id", "?")
+                line = (f"slide {p['slide']:>3} {slot_id}: 文字过长 {omsg} "
+                        f"-> {p['new_text'][:24]!r}")
+                overflow_issues.append(line)
+                print(f"OVERFLOW {line}", file=sys.stderr)
+            elif omsg and fits:  # autofit soft note
+                print(f"note  slide {p['slide']:>3}: {omsg}", file=sys.stderr)
+
+    if overflow_issues:
+        print(f"\n{len(overflow_issues)} 处文字可能出框（请缩短文字到容量内，"
+              f"保持字号不变以维持同级一致）：", file=sys.stderr)
+        for line in overflow_issues:
+            print(f"  - {line}", file=sys.stderr)
+        if args.strict:
+            print("\n--strict: 因出框风险拒绝保存。缩短上述文字后重试。", file=sys.stderr)
+            return 5
+
     prune_slides(prs, selected)
     prs.save(args.output)
-    print(f"\nSaved {args.output} with {len(selected)} slides and {len(planned)} edits")
+    note = f"\nSaved {args.output} with {len(selected)} slides and {len(planned)} edits"
+    if overflow_issues:
+        note += f"  (⚠️ {len(overflow_issues)} 处可能出框，见上)"
+    print(note)
     return 0
 
 
@@ -229,6 +306,8 @@ def main() -> int:
     ap.add_argument("edits", type=Path)
     ap.add_argument("output", type=Path)
     ap.add_argument("--detail", type=Path, default=None)
+    ap.add_argument("--no-lint", action="store_true",
+                    help="disable the text-overflow check")
     ap.add_argument("--strict", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
