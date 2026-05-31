@@ -84,3 +84,4 @@ templates/       # 17 个模板（每个 4 文件）
 - 本仓库没有PPT模板的版权
 - **禁止任何二次分发 / 商业使用**
 - 用到的开源工具：[LibreOffice](https://www.libreoffice.org/)、[python-pptx](https://python-pptx.readthedocs.io/)、[Poppler](https://poppler.freedesktop.org/)、[WenQuanYi Micro Hei](http://wenq.org/)
+- 感谢 [LinuxDO](https://linux.do) 社区的支持
