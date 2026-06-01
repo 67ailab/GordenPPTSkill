@@ -1,9 +1,23 @@
 {
   "$schema": "ppt-skill-updates/v1",
-  "latest_version": "1.0.11",
+  "latest_version": "1.0.12",
   "update_source": "git+https://github.com/GordenSun/GordenPPTSkill.git#main",
   "_update_source_help": "Set update_source to a URL prefix (e.g. https://example.com/ppt-skill/v1/) that hosts the same updates.json + the per-file mirror, OR to a git remote+branch in the form 'git+https://...repo.git#main'. When unset, check_update.py reports 'Update source unset' and exits cleanly.",
   "history": [
+    {
+      "version": "1.0.12",
+      "released_at": "2026-06-01",
+      "summary": "Renamed the skill (SKILL.md frontmatter name) to GordenPPTSkill.",
+      "added": [],
+      "modified": [
+        "VERSION",
+        "CHANGELOG.md",
+        "updates.json",
+        "manifest.json",
+        "SKILL.md"
+      ],
+      "removed": []
+    },
     {
       "version": "1.0.11",
       "released_at": "2026-06-01",

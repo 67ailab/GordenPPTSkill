@@ -2,6 +2,12 @@
 
 按版本倒序列出可读变更。机器读取请用 [`updates.json`](./updates.json)；只读哪些文件变动请用 [`manifest.json`](./manifest.json) 的 `last_modified` 字段。
 
+## 1.0.12 — 2026-06-01
+
+- `SKILL.md` frontmatter 的 `name` 由 `ppt-builder` 改为 `GordenPPTSkill`（与仓库/品牌一致）。
+
+纯文档更新。升级：`python3 scripts/apply_update.py`。
+
 ## 1.0.11 — 2026-06-01
 
 **给 SKILL.md 补上 Agent Skill 标准元数据（技能名 + 描述），方便其他 Agent 自动发现与调用。**

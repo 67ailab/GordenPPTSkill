@@ -1,7 +1,7 @@
 {
   "$schema": "ppt-skill-manifest/v1",
   "skill_name": "ppt-builder",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "file_count": 98,
   "files": {
     ".gitattributes": {
@@ -17,10 +17,10 @@
       "last_modified": "1.0.0"
     },
     "CHANGELOG.md": {
-      "sha256": "52dc9cb0a8d473e86431811b46beeb3779c846559f1af86cc367de4316cd4554",
-      "size": 15584,
+      "sha256": "9a50b672f8ef491123c69412214944e3deb84bcc70f0a65b0e8a93bb586d1a2b",
+      "size": 15785,
       "version_added": "1.0.0",
-      "last_modified": "1.0.11"
+      "last_modified": "1.0.12"
     },
     "LICENSE": {
       "sha256": "6f52f1baed8c393758ff6e8bf9c515edd6fd377187ae38a64165a330573b7829",
@@ -41,16 +41,16 @@
       "last_modified": "1.0.10"
     },
     "SKILL.md": {
-      "sha256": "f9361d9cb0d79f500bb1f05f973166dba9dbc0b724d0ec758f441d3afc867f09",
-      "size": 13745,
+      "sha256": "e5dcb0486031ba674e7bd5fc63822279e8636d8066188f466ce73efa204581be",
+      "size": 13748,
       "version_added": "1.0.0",
-      "last_modified": "1.0.11"
+      "last_modified": "1.0.12"
     },
     "VERSION": {
-      "sha256": "3b106e2ff87e58ed45b369d41f5f084a182052044b89bb9ff58ada97e206627f",
+      "sha256": "61cd2e70b17ad33553792f15d1b5e3fcb7b8a60b4ceb3da3fbdb7453b00efdfa",
       "size": 7,
       "version_added": "1.0.0",
-      "last_modified": "1.0.11"
+      "last_modified": "1.0.12"
     },
     "assets/group-qr.jpg": {
       "sha256": "416e4453853f48397cd10e0b20c95dd8ef9edd09b427813cabb4fa1043684382",
@@ -587,10 +587,10 @@
       "last_modified": "1.0.6"
     },
     "updates.json": {
-      "sha256": "7f31050e6efa7480d9e4ae0364c14c6a659170a8bd7f91566f2f373ecc27bf40",
-      "size": 13893,
+      "sha256": "4ce62d80da09776f6444895c02e27b1c8c6afe5c907e37efd2f2e1c1919421eb",
+      "size": 14232,
       "version_added": "1.0.0",
-      "last_modified": "1.0.11"
+      "last_modified": "1.0.12"
     }
   }
 }
