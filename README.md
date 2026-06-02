@@ -23,6 +23,22 @@
 
 3、技能自动更新机制：如果我更新了可选用的PPT模板，使用技能时会自动更新技能。技能像软件一样可以更新
 
+## 效果展示
+
+以下是用本 Skill 生成的实际页面（信息密度高、排版复杂、商务质感）：
+
+<p align="center">
+  <img src="./assets/showcase-1.jpg" alt="效果展示 1 - 战略定位分析" width="720" />
+</p>
+
+<p align="center">
+  <img src="./assets/showcase-2.jpg" alt="效果展示 2 - 价值冰山模型" width="720" />
+</p>
+
+<p align="center">
+  <img src="./assets/showcase-3.jpg" alt="效果展示 3 - 产品化闭环" width="720" />
+</p>
+
 ## 使用方法
 极其简单，把这段提示词发给你的Agent即可：
 

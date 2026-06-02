@@ -2,6 +2,12 @@
 
 按版本倒序列出可读变更。机器读取请用 [`updates.json`](./updates.json)；只读哪些文件变动请用 [`manifest.json`](./manifest.json) 的 `last_modified` 字段。
 
+## 1.0.15 — 2026-06-02
+
+- README 新增「效果展示」模块，展示 3 张用本 Skill 生成的实际页面（`assets/showcase-1.jpg` / `showcase-2.jpg` / `showcase-3.jpg`）。
+
+纯资源/文档更新。升级：`python3 scripts/apply_update.py`。
+
 ## 1.0.14 — 2026-06-01
 
 - `assets/group-qr.jpg` 替换为新的「PPT Skill 交流群-4 群」二维码（6 月 8 日前有效）。
