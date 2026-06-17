@@ -8,13 +8,7 @@
 
 ## 交流群
 
-扫码加入「PPT Skill 交流群」一起讨论 / 反馈问题 / 看新版本：
-
-<p align="center">
-  <img src="./assets/group-qr.jpg" alt="PPT Skill 交流群二维码" width="320" />
-</p>
-
-> ⚠️ 群二维码 7 天内有效；过期请来 [Issues](https://github.com/GordenSun/GordenPPTSkill/issues) 留言，我会贴新的。
+加我微信duge360，拉你进PPT Skill交流群，AI话题也可以讨论。
 
 ## 几大特色
 1、能生成信息密度高、排版复杂、看起来高大上的PPT，也支持生成简约、商务风格的PPT。适合国企、互联网大厂使用。
