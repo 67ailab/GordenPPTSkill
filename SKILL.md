@@ -57,7 +57,7 @@ python3 scripts/apply_update.py
 python3 scripts/check_update.py     # 列出 added / modified / removed
 ```
 
-`updates.json` 的 `update_source` 已配置为 `git+https://github.com/GordenSun/GordenPPTSkill.git#main`，开箱即用，无需修改。
+`updates.json` 的 `update_source` 已配置为 `git+https://github.com/67ailab/GordenPPTSkill.git#main`，开箱即用，无需修改。
 
 ## 三种模式
 

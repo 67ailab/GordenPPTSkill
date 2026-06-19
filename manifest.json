@@ -2,7 +2,7 @@
   "$schema": "ppt-skill-manifest/v1",
   "skill_name": "ppt-builder",
   "version": "1.0.17",
-  "file_count": 101,
+  "file_count": 102,
   "files": {
     ".gitattributes": {
       "sha256": "538c7a3e4a5ddc32a56c2f79f7e3abae99a9cb98e587bf681d9a7a1d19a554dc",
@@ -22,6 +22,12 @@
       "version_added": "1.0.0",
       "last_modified": "1.0.17"
     },
+    "CLAUDE.md": {
+      "sha256": "5ce75594e1856b4cec2b98ca6aafdc4689c4f540fd29e03ba332ff0565684708",
+      "size": 6777,
+      "version_added": "1.0.17",
+      "last_modified": "1.0.17"
+    },
     "LICENSE": {
       "sha256": "6f52f1baed8c393758ff6e8bf9c515edd6fd377187ae38a64165a330573b7829",
       "size": 1417,
@@ -35,14 +41,14 @@
       "last_modified": "1.0.0"
     },
     "README.md": {
-      "sha256": "1e7ac0eaeee3f9b295a90700b6cf9d3df363162861744c10f5c6760506ad734b",
-      "size": 4014,
+      "sha256": "d1b4c095c0c1c0216131b096e6c4b644aa0437028ab3e1abf5d003e12d9a85cc",
+      "size": 3758,
       "version_added": "1.0.0",
-      "last_modified": "1.0.16"
+      "last_modified": "1.0.17"
     },
     "SKILL.md": {
-      "sha256": "87c53a360a34f8e7f33de1edae1981442be0fa5358db7eb0dc77ea0543cd90e2",
-      "size": 14179,
+      "sha256": "d579feba8f9ee5ee5cd684b9f098239338e76d2f47276c8bd7042a5c2a49b8d3",
+      "size": 14177,
       "version_added": "1.0.0",
       "last_modified": "1.0.17"
     },
@@ -107,10 +113,10 @@
       "last_modified": "1.0.17"
     },
     "scripts/apply_update.py": {
-      "sha256": "f51608a3e2c7097eca52d932247a6c3fbb6bd951265c26a472cc3eb17caa86e3",
-      "size": 9803,
+      "sha256": "15ea9e41a72e1f68aa193cb5000b918c8b1da5465b30f0a9ada6f2596ae893d3",
+      "size": 10457,
       "version_added": "1.0.0",
-      "last_modified": "1.0.6"
+      "last_modified": "1.0.17"
     },
     "scripts/build_manifest.py": {
       "sha256": "55b98cebf5b609eb56253dacf1f6a531fc5c2d2bcb9f13c847c9e251768ef9d2",
@@ -605,8 +611,8 @@
       "last_modified": "1.0.6"
     },
     "updates.json": {
-      "sha256": "43f556d9a6de3e45a57e2bc9dbcb759568b8eb718fb686c3e7691dc971bd18e6",
-      "size": 16306,
+      "sha256": "bbe8a3f7951684bed658c2b2c8bc247bfdcc71f6858d7ce3546dacca324cae7d",
+      "size": 16304,
       "version_added": "1.0.0",
       "last_modified": "1.0.17"
     }

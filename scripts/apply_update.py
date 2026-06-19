@@ -51,6 +51,20 @@ def parse_version(v: str) -> tuple[int, int, int]:
     return tuple(parts[:3])  # type: ignore[return-value]
 
 
+def safe_dest(root: Path, rel: str) -> Path:
+    """Resolve <root>/<rel> and refuse paths that escape the skill directory.
+
+    File paths come from the remote updates.json delta; an absolute path or
+    ``..`` traversal would otherwise let a compromised remote write/delete
+    outside the skill folder. Fail closed by raising so the whole update aborts.
+    """
+    root_resolved = root.resolve()
+    dest = (root_resolved / rel).resolve()
+    if dest != root_resolved and root_resolved not in dest.parents:
+        raise ValueError(f"unsafe path in update delta (escapes skill dir): {rel!r}")
+    return dest
+
+
 def fetch_json(source: str, sub: str) -> dict:
     url = source.rstrip("/") + "/" + sub.lstrip("/")
     with urllib.request.urlopen(url, timeout=30) as resp:
@@ -100,7 +114,7 @@ def http_apply(root: Path, source: str, remote_updates: dict, dry_run: bool) -> 
         print(f"WARN Could not fetch remote manifest.json ({exc}); skipping sha256 check")
 
     for f in sorted(added | modified):
-        dest = root / f
+        dest = safe_dest(root, f)
         dest.parent.mkdir(parents=True, exist_ok=True)
         try:
             data = fetch_bytes(source, f"files/{f}")
@@ -116,7 +130,7 @@ def http_apply(root: Path, source: str, remote_updates: dict, dry_run: bool) -> 
         print(f"OK   wrote {f}")
 
     for f in sorted(removed):
-        dest = root / f
+        dest = safe_dest(root, f)
         if dest.exists():
             dest.unlink()
             print(f"OK   removed {f}")
@@ -193,7 +207,7 @@ def git_apply(root: Path, source: str, dry_run: bool) -> int:
 
         for f in sorted(added | modified):
             src = clone / f
-            dst = root / f
+            dst = safe_dest(root, f)
             if not src.exists():
                 print(f"WARN remote missing {f}", file=sys.stderr)
                 continue
@@ -209,7 +223,7 @@ def git_apply(root: Path, source: str, dry_run: bool) -> int:
             shutil.copy2(src, dst)
             print(f"OK   wrote {f}")
         for f in sorted(removed):
-            dst = root / f
+            dst = safe_dest(root, f)
             if dst.exists():
                 dst.unlink()
                 print(f"OK   removed {f}")
